@@ -1,0 +1,1573 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+-filter	Makefile	/^	.\/cpplint\/cpplint.py --filter=-runtime\/references,-readability\/streams,-build\/namespaces $(SRC2)$/;"	m
+Add	src/config.h	/^void Config::Add(const std::string& in_key, const T& value) {$/;"	f	class:Config
+AddTask	libthreadpool/CThread.cc	/^int CThreadPool::AddTask(CTask *task) {$/;"	f	class:CThreadPool
+Args	libjson/json.h	/^      typedef std::vector<PathArgument> Args;$/;"	t	class:Json::Path
+ArrayIndex	libjson/json.h	/^      typedef Json::ArrayIndex ArrayIndex;$/;"	t	class:Json::Value
+ArrayIndex	libjson/json.h	/^      typedef Value::ArrayIndex ArrayIndex;$/;"	t	class:Json::ValueInternalArray
+ArrayIndex	libjson/json.h	/^   typedef unsigned int ArrayIndex;$/;"	t	namespace:Json
+BUFFER_MAX_READ	src/buffer.c	206;"	d	file:
+BaseName	cpplint/cpplint.py	/^  def BaseName(self):$/;"	m	class:FileInfo
+BatchAllocator	libjson/jsoncpp.cpp	/^   BatchAllocator( unsigned int objectsPerPage = 255 )$/;"	f	class:Json::BatchAllocator
+BatchAllocator	libjson/jsoncpp.cpp	/^class BatchAllocator$/;"	c	namespace:Json	file:
+BatchInfo	libjson/jsoncpp.cpp	/^   struct BatchInfo$/;"	s	class:Json::BatchAllocator	file:
+Begin	cpplint/cpplint.py	/^  def Begin(self, function_name):$/;"	m	class:_FunctionState
+BucketIndex	libjson/json.h	/^      typedef unsigned int BucketIndex;$/;"	t	class:Json::ValueInternalMap
+CC	Makefile	/^CC  := gcc$/;"	m
+CGuard	liblog/lock.h	/^    explicit CGuard(CLock & lock):m_pLock(&lock) {$/;"	f	class:CGuard
+CGuard	liblog/lock.h	/^class CGuard {$/;"	c
+CHAR_IS_UNRESERVED	src/http.c	123;"	d	file:
+CIRCLEQ_EMPTY	src/queue.h	559;"	d
+CIRCLEQ_ENTRY	src/queue.h	479;"	d
+CIRCLEQ_FIRST	src/queue.h	560;"	d
+CIRCLEQ_FOREACH	src/queue.h	546;"	d
+CIRCLEQ_FOREACH_REVERSE	src/queue.h	551;"	d
+CIRCLEQ_HEAD	src/queue.h	470;"	d
+CIRCLEQ_HEAD_INITIALIZER	src/queue.h	476;"	d
+CIRCLEQ_INIT	src/queue.h	488;"	d
+CIRCLEQ_INSERT_AFTER	src/queue.h	493;"	d
+CIRCLEQ_INSERT_BEFORE	src/queue.h	503;"	d
+CIRCLEQ_INSERT_HEAD	src/queue.h	513;"	d
+CIRCLEQ_INSERT_TAIL	src/queue.h	523;"	d
+CIRCLEQ_LAST	src/queue.h	561;"	d
+CIRCLEQ_LOOP_NEXT	src/queue.h	565;"	d
+CIRCLEQ_LOOP_PREV	src/queue.h	569;"	d
+CIRCLEQ_NEXT	src/queue.h	562;"	d
+CIRCLEQ_PREV	src/queue.h	563;"	d
+CIRCLEQ_REMOVE	src/queue.h	533;"	d
+CLEAN	src/main.cc	1240;"	d	file:
+CLEAN	src/main.cc	1351;"	d	file:
+CLEAN_R	src/main.cc	1245;"	d	file:
+CLEAN_R	src/main.cc	1352;"	d	file:
+CLock	liblog/lock.h	/^    explicit CLock(pthread_mutexattr_t *attrs = NULL) {$/;"	f	class:CLock
+CLock	liblog/lock.h	/^class CLock {$/;"	c
+CLog	liblog/log.cc	/^CLog::CLog(const char *log_path_name, int max_log_size, int max_log_num,$/;"	f	class:CLog
+CLog	liblog/log.h	/^class CLog {$/;"	c
+CLogLevel	liblog/log.h	/^    enum CLogLevel {$/;"	g	class:CLog
+CODE_STR	src/http.h	59;"	d
+CONNECT_TIMEOUT_MSEC	libsphinxclient/sphinxclient.c	69;"	d	file:
+COVERAGE	Makefile	/^COVERAGE :=$/;"	m
+CPPTL_JSON_FEATURES_H_INCLUDED	libjson/json.h	259;"	d
+CPPTL_JSON_H_INCLUDED	libjson/json.h	322;"	d
+CPPTL_JSON_READER_H_INCLUDED	libjson/json.h	1439;"	d
+CTask	libthreadpool/CThread.h	/^    CTask() {}$/;"	f	class:CTask
+CTask	libthreadpool/CThread.h	/^    explicit CTask(string taskName) {$/;"	f	class:CTask
+CTask	libthreadpool/CThread.h	/^class CTask {$/;"	c
+CThreadPool	libthreadpool/CThread.cc	/^CThreadPool::CThreadPool(int min, int max) {$/;"	f	class:CThreadPool
+CThreadPool	libthreadpool/CThread.cc	/^CThreadPool::CThreadPool(int threadNum) {$/;"	f	class:CThreadPool
+CThreadPool	libthreadpool/CThread.h	/^class CThreadPool {$/;"	c
+CXX	Makefile	/^CXX := g++$/;"	m
+CZString	libjson/json.h	/^      class CZString $/;"	c	class:Json::Value
+CZString	libjson/jsoncpp.cpp	/^Value::CZString::CZString( ArrayIndex index )$/;"	f	class:Json::Value::CZString
+CZString	libjson/jsoncpp.cpp	/^Value::CZString::CZString( const CZString &other )$/;"	f	class:Json::Value::CZString
+CZString	libjson/jsoncpp.cpp	/^Value::CZString::CZString( const char *cstr, DuplicationPolicy allocate )$/;"	f	class:Json::Value::CZString
+CanonicalizeAlphabeticalOrder	cpplint/cpplint.py	/^  def CanonicalizeAlphabeticalOrder(self, header_path):$/;"	m	class:_IncludeState
+Char	libjson/json.h	/^      typedef char Char;$/;"	t	class:Json::Reader
+Check	cpplint/cpplint.py	/^  def Check(self, error, filename, linenum):$/;"	m	class:_FunctionState
+CheckBraces	cpplint/cpplint.py	/^def CheckBraces(filename, clean_lines, linenum, error):$/;"	f
+CheckCStyleCast	cpplint/cpplint.py	/^def CheckCStyleCast(filename, linenum, line, raw_line, cast_type, pattern,$/;"	f
+CheckCheck	cpplint/cpplint.py	/^def CheckCheck(filename, clean_lines, linenum, error):$/;"	f
+CheckComment	cpplint/cpplint.py	/^def CheckComment(comment, filename, linenum, error):$/;"	f
+CheckFinished	cpplint/cpplint.py	/^  def CheckFinished(self, filename, error):$/;"	m	class:_ClassState
+CheckForCopyright	cpplint/cpplint.py	/^def CheckForCopyright(filename, lines, error):$/;"	f
+CheckForFunctionLengths	cpplint/cpplint.py	/^def CheckForFunctionLengths(filename, clean_lines, linenum,$/;"	f
+CheckForFunctionLengthsTest	cpplint/cpplint_unittest.py	/^class CheckForFunctionLengthsTest(CpplintTestBase):$/;"	c
+CheckForHeaderGuard	cpplint/cpplint.py	/^def CheckForHeaderGuard(filename, lines, error):$/;"	f
+CheckForIncludeWhatYouUse	cpplint/cpplint.py	/^def CheckForIncludeWhatYouUse(filename, clean_lines, include_state, error,$/;"	f
+CheckForMultilineCommentsAndStrings	cpplint/cpplint.py	/^def CheckForMultilineCommentsAndStrings(filename, clean_lines, linenum, error):$/;"	f
+CheckForNewlineAtEOF	cpplint/cpplint.py	/^def CheckForNewlineAtEOF(filename, lines, error):$/;"	f
+CheckForNonStandardConstructs	cpplint/cpplint.py	/^def CheckForNonStandardConstructs(filename, clean_lines, linenum,$/;"	f
+CheckForUnicodeReplacementCharacters	cpplint/cpplint.py	/^def CheckForUnicodeReplacementCharacters(filename, lines, error):$/;"	f
+CheckIncludeLine	cpplint/cpplint.py	/^def CheckIncludeLine(filename, clean_lines, linenum, include_state, error):$/;"	f
+CheckInvalidIncrement	cpplint/cpplint.py	/^def CheckInvalidIncrement(filename, clean_lines, linenum, error):$/;"	f
+CheckLanguage	cpplint/cpplint.py	/^def CheckLanguage(filename, clean_lines, linenum, file_extension, include_state,$/;"	f
+CheckMakePairUsesDeduction	cpplint/cpplint.py	/^def CheckMakePairUsesDeduction(filename, clean_lines, linenum, error):$/;"	f
+CheckNextIncludeOrder	cpplint/cpplint.py	/^  def CheckNextIncludeOrder(self, header_type):$/;"	m	class:_IncludeState
+CheckPosixThreading	cpplint/cpplint.py	/^def CheckPosixThreading(filename, clean_lines, linenum, error):$/;"	f
+CheckSectionSpacing	cpplint/cpplint.py	/^def CheckSectionSpacing(filename, clean_lines, class_info, linenum, error):$/;"	f
+CheckSpacing	cpplint/cpplint.py	/^def CheckSpacing(filename, clean_lines, linenum, error):$/;"	f
+CheckSpacingForFunctionCall	cpplint/cpplint.py	/^def CheckSpacingForFunctionCall(filename, line, linenum, error):$/;"	f
+CheckStyle	cpplint/cpplint.py	/^def CheckStyle(filename, clean_lines, linenum, file_extension, class_state,$/;"	f
+ChildValues	libjson/json.h	/^      typedef std::vector<std::string> ChildValues;$/;"	t	class:Json::StyledStreamWriter
+ChildValues	libjson/json.h	/^      typedef std::vector<std::string> ChildValues;$/;"	t	class:Json::StyledWriter
+CleanseComments	cpplint/cpplint.py	/^def CleanseComments(line):$/;"	f
+CleansedLines	cpplint/cpplint.py	/^class CleansedLines(object):$/;"	c
+CleansedLinesTest	cpplint/cpplint_unittest.py	/^class CleansedLinesTest(unittest.TestCase):$/;"	c
+ClientInfo	src/main.cc	/^struct ClientInfo {$/;"	s	file:
+CloseExpression	cpplint/cpplint.py	/^def CloseExpression(clean_lines, linenum, pos):$/;"	f
+CommentInfo	libjson/json.h	/^      struct CommentInfo$/;"	s	class:Json::Value
+CommentInfo	libjson/jsoncpp.cpp	/^Value::CommentInfo::CommentInfo()$/;"	f	class:Json::Value::CommentInfo
+CommentPlacement	libjson/json.h	/^   enum CommentPlacement$/;"	g	namespace:Json
+Config	src/config.cc	/^Config::Config() : m_Delimiter(string(1, '=')), m_Comment(string(1, '#')) {$/;"	f	class:Config
+Config	src/config.cc	/^Config::Config(string filename, string delimiter, string comment)$/;"	f	class:Config
+Config	src/config.h	/^class Config {$/;"	c
+Count	cpplint/cpplint.py	/^  def Count(self):$/;"	m	class:_FunctionState
+CpplintTest	cpplint/cpplint_unittest.py	/^class CpplintTest(CpplintTestBase):$/;"	c
+CpplintTestBase	cpplint/cpplint_unittest.py	/^class CpplintTestBase(unittest.TestCase):$/;"	c
+Create	libthreadpool/CThread.cc	/^int CThreadPool::Create(int thread_num) {$/;"	f	class:CThreadPool
+DEBUG_LOG	src/main.cc	133;"	d	file:
+DoTest	cpplint/cpplint_unittest.py	/^    def DoTest(self, data, is_missing_eof):$/;"	m	class:CpplintTest
+DoTest	cpplint/cpplint_unittest.py	/^    def DoTest(self, lines):$/;"	m	class:CpplintTest
+DoTest	cpplint/cpplint_unittest.py	/^    def DoTest(self, raw_bytes, has_invalid_utf8):$/;"	m	class:CpplintTest
+DuplicationPolicy	libjson/json.h	/^         enum DuplicationPolicy $/;"	g	class:Json::Value::CZString
+EINTR	libsphinxclient/sphinxclient.c	39;"	d	file:
+ERROR_LOG	src/main.cc	130;"	d	file:
+EWOULDBLOCK	libsphinxclient/sphinxclient.c	38;"	d	file:
+End	cpplint/cpplint.py	/^  def End(self):$/;"	m	class:_FunctionState
+Error	cpplint/cpplint.py	/^def Error(filename, linenum, category, confidence, message):$/;"	f
+ErrorCollector	cpplint/cpplint_unittest.py	/^class ErrorCollector:$/;"	c
+ErrorInfo	libjson/json.h	/^      class ErrorInfo$/;"	c	class:Json::Reader
+Errors	libjson/json.h	/^      typedef std::deque<ErrorInfo> Errors;$/;"	t	class:Json::Reader
+ExecSafeExit	src/main.cc	/^void ExecSafeExit(int sign) {$/;"	f
+Extension	cpplint/cpplint.py	/^  def Extension(self):$/;"	m	class:FileInfo
+FastWriter	libjson/json.h	/^   class JSON_API FastWriter : public Writer$/;"	c	namespace:Json
+FastWriter	libjson/jsoncpp.cpp	/^FastWriter::FastWriter()$/;"	f	class:Json::FastWriter
+Features	libjson/json.h	/^   class JSON_API Features$/;"	c	namespace:Json
+Features	libjson/jsoncpp.cpp	/^Features::Features()$/;"	f	class:Json::Features
+FileExist	src/config.cc	/^bool Config::FileExist(std::string filename) {$/;"	f	class:Config
+FileInfo	cpplint/cpplint.py	/^class FileInfo:$/;"	c
+File_not_found	src/config.h	/^      File_not_found(const std::string& filename_ = std::string()) :$/;"	f	struct:Config::File_not_found
+File_not_found	src/config.h	/^    struct File_not_found {$/;"	s	class:Config
+FilesBelongToSameModule	cpplint/cpplint.py	/^def FilesBelongToSameModule(filename_cc, filename_h):$/;"	f
+Filter	src/sphinx_query_data.h	/^      Filter() {$/;"	f	struct:SphinxQueryData::Filter
+Filter	src/sphinx_query_data.h	/^    struct Filter {$/;"	s	class:SphinxQueryData
+FindNextMultiLineCommentEnd	cpplint/cpplint.py	/^def FindNextMultiLineCommentEnd(lines, lineix):$/;"	f
+FindNextMultiLineCommentStart	cpplint/cpplint.py	/^def FindNextMultiLineCommentStart(lines, lineix):$/;"	f
+Format	cpplint/cpplint_unittest.py	/^    def Format(includes):$/;"	m	class:OrderOfIncludesTest
+FullName	cpplint/cpplint.py	/^  def FullName(self):$/;"	m	class:FileInfo
+FunctionBody	cpplint/cpplint_unittest.py	/^  def FunctionBody(self, number_of_lines):$/;"	m	class:CheckForFunctionLengthsTest
+FunctionBodyWithBlankLines	cpplint/cpplint_unittest.py	/^  def FunctionBodyWithBlankLines(self, number_of_lines):$/;"	m	class:CheckForFunctionLengthsTest
+FunctionBodyWithNoLints	cpplint/cpplint_unittest.py	/^  def FunctionBodyWithNoLints(self, number_of_lines):$/;"	m	class:CheckForFunctionLengthsTest
+GetComment	src/config.h	/^    std::string GetComment() const {$/;"	f	class:Config
+GetDelimiter	src/config.h	/^    std::string GetDelimiter() const {$/;"	f	class:Config
+GetHeaderGuardCPPVariable	cpplint/cpplint.py	/^def GetHeaderGuardCPPVariable(filename):$/;"	f
+GetKernel	liblog/lock.h	/^    pthread_mutex_t* GetKernel() {$/;"	f	class:CLock
+GetLineWidth	cpplint/cpplint.py	/^def GetLineWidth(line):$/;"	f
+GetPreviousNonBlankLine	cpplint/cpplint.py	/^def GetPreviousNonBlankLine(clean_lines, linenum):$/;"	f
+GlobalParameter	src/main.cc	/^    GlobalParameter(): is_daemon(false),$/;"	f	class:GlobalParameter
+GlobalParameter	src/main.cc	/^class GlobalParameter {$/;"	c	file:
+HAVE_DLFCN_H	libsphinxclient/sphinxclient_config.h	5;"	d
+HAVE_INTTYPES_H	libsphinxclient/sphinxclient_config.h	8;"	d
+HAVE_MEMORY_H	libsphinxclient/sphinxclient_config.h	11;"	d
+HAVE_STDINT_H	libsphinxclient/sphinxclient_config.h	14;"	d
+HAVE_STDLIB_H	libsphinxclient/sphinxclient_config.h	17;"	d
+HAVE_STRINGS_H	libsphinxclient/sphinxclient_config.h	20;"	d
+HAVE_STRING_H	libsphinxclient/sphinxclient_config.h	23;"	d
+HAVE_SYS_STAT_H	libsphinxclient/sphinxclient_config.h	26;"	d
+HAVE_SYS_TYPES_H	libsphinxclient/sphinxclient_config.h	29;"	d
+HAVE_UNISTD_H	libsphinxclient/sphinxclient_config.h	32;"	d
+HTTP_BADREQUEST	src/http.h	/^    HTTP_BADREQUEST = 400,$/;"	e	enum:__anon4
+HTTP_BADREQUEST_STR	src/http.h	55;"	d
+HTTP_GET	src/http.h	/^  enum { HTTP_GET, HTTP_HEAD, HTTP_UNKNOWN };$/;"	e	enum:__anon3
+HTTP_HEAD	src/http.h	/^  enum { HTTP_GET, HTTP_HEAD, HTTP_UNKNOWN };$/;"	e	enum:__anon3
+HTTP_NOTFOUND	src/http.h	/^    HTTP_NOTFOUND = 404,$/;"	e	enum:__anon4
+HTTP_NOTFOUND_STR	src/http.h	54;"	d
+HTTP_NOTIMPLEMENT	src/http.h	/^    HTTP_NOTIMPLEMENT = 501,$/;"	e	enum:__anon4
+HTTP_NOTIMPLEMENT_STR	src/http.h	56;"	d
+HTTP_OK	src/http.h	/^    HTTP_OK = 200,$/;"	e	enum:__anon4
+HTTP_OK_STR	src/http.h	53;"	d
+HTTP_SERVUNAVAIL	src/http.h	/^    HTTP_SERVUNAVAIL = 503,$/;"	e	enum:__anon4
+HTTP_SERVUNAVAIL_STR	src/http.h	57;"	d
+HTTP_UNKNOWN	src/http.h	/^  enum { HTTP_GET, HTTP_HEAD, HTTP_UNKNOWN };$/;"	e	enum:__anon3
+HashKey	libjson/json.h	/^      typedef unsigned int HashKey;$/;"	t	class:Json::ValueInternalMap
+INC	Makefile	/^INC :=$/;"	m
+INFO_LOG	src/main.cc	132;"	d	file:
+INSTALLDIRNAME	Makefile	/^INSTALLDIRNAME := sphinx-http-api$/;"	m
+IPPROTO_TCP	libsphinxclient/sphinxclient.c	58;"	d	file:
+InArgs	libjson/json.h	/^      typedef std::vector<const PathArgument *> InArgs;$/;"	t	class:Json::Path
+IncrementErrorCount	cpplint/cpplint.py	/^  def IncrementErrorCount(self, category):$/;"	m	class:_CppLintState
+Int	libjson/json.h	/^      typedef Json::Int Int;$/;"	t	class:Json::Value
+Int	libjson/json.h	/^   typedef int Int;$/;"	t	namespace:Json
+Int64	libjson/json.h	/^      typedef Json::Int64 Int64;$/;"	t	class:Json::Value
+Int64	libjson/json.h	/^   typedef __int64 Int64;$/;"	t	namespace:Json
+Int64	libjson/json.h	/^   typedef long long int Int64;$/;"	t	namespace:Json
+InternalFlags	libjson/json.h	/^      enum InternalFlags { $/;"	g	class:Json::ValueInternalLink
+IsBlankLine	cpplint/cpplint.py	/^def IsBlankLine(line):$/;"	f
+IsCppString	cpplint/cpplint.py	/^def IsCppString(line):$/;"	f
+IsErrorSuppressedByNolint	cpplint/cpplint.py	/^def IsErrorSuppressedByNolint(category, linenum):$/;"	f
+IsInAlphabeticalOrder	cpplint/cpplint.py	/^  def IsInAlphabeticalOrder(self, header_path):$/;"	m	class:_IncludeState
+IsSource	cpplint/cpplint.py	/^  def IsSource(self):$/;"	m	class:FileInfo
+IteratorState	libjson/json.h	/^         IteratorState() $/;"	f	struct:Json::ValueInternalArray::IteratorState
+IteratorState	libjson/json.h	/^         IteratorState() $/;"	f	struct:Json::ValueInternalMap::IteratorState
+IteratorState	libjson/json.h	/^      struct IteratorState \/\/ Must be a POD$/;"	s	class:Json::ValueInternalArray
+IteratorState	libjson/json.h	/^      struct IteratorState$/;"	s	class:Json::ValueInternalMap
+JSONCPP_BATCHALLOCATOR_H_INCLUDED	libjson/jsoncpp.cpp	1090;"	d	file:
+JSONCPP_DEPRECATED	libjson/json.h	150;"	d
+JSONCPP_DEPRECATED	libjson/json.h	154;"	d
+JSON_AMALGATED_H_INCLUDED	libjson/json.h	76;"	d
+JSON_API	libjson/json.h	129;"	d
+JSON_API	libjson/json.h	131;"	d
+JSON_API	libjson/json.h	133;"	d
+JSON_API	libjson/json.h	135;"	d
+JSON_ASSERT	libjson/jsoncpp.cpp	1564;"	d	file:
+JSON_ASSERT_MESSAGE	libjson/jsoncpp.cpp	1566;"	d	file:
+JSON_ASSERT_UNREACHABLE	libjson/jsoncpp.cpp	1563;"	d	file:
+JSON_CONFIG_H_INCLUDED	libjson/json.h	91;"	d
+JSON_FAIL_MESSAGE	libjson/jsoncpp.cpp	1565;"	d	file:
+JSON_FORWARDS_H_INCLUDED	libjson/json.h	201;"	d
+JSON_HAS_INT64	libjson/json.h	163;"	d
+JSON_HAS_INT64	libjson/json.h	175;"	d
+JSON_IS_AMALGAMATION	libjson/json.h	119;"	d
+JSON_IS_AMALGATED	libjson/json.h	79;"	d
+JSON_USE_CPPTL	libjson/json.h	124;"	d
+JSON_USE_EXCEPTION	libjson/json.h	113;"	d
+JSON_USE_INT64_DOUBLE_CONVERSION	libjson/json.h	145;"	d
+JSON_WRITER_H_INCLUDED	libjson/json.h	1667;"	d
+Json	libjson/json.h	/^namespace Json {$/;"	n
+Json	libjson/jsoncpp.cpp	/^namespace Json {$/;"	n	file:
+KeyExists	src/config.cc	/^bool Config::KeyExists(const string& key) const {$/;"	f	class:Config
+Key_not_found	src/config.h	/^      Key_not_found(const std::string& key_ = std::string()) :$/;"	f	struct:Config::Key_not_found
+Key_not_found	src/config.h	/^    struct Key_not_found {$/;"	s	class:Config
+Kind	libjson/json.h	/^      enum Kind$/;"	g	class:Json::PathArgument
+LIB	Makefile	/^LIB :=$/;"	m
+LIBLOG_LOCK_H_	liblog/lock.h	8;"	d
+LIBLOG_LOG_H_	liblog/log.h	15;"	d
+LIBTHREADPOOL_CTHREAD_H_	libthreadpool/CThread.h	7;"	d
+LIB_FLAGS	Makefile	/^LIB_FLAGS := -pthread$/;"	m
+LIB_JSONCPP_JSON_TOOL_H_INCLUDED	libjson/jsoncpp.cpp	89;"	d	file:
+LIST_EMPTY	src/queue.h	142;"	d
+LIST_ENTRY	src/queue.h	92;"	d
+LIST_FIRST	src/queue.h	143;"	d
+LIST_FOREACH	src/queue.h	134;"	d
+LIST_HEAD	src/queue.h	84;"	d
+LIST_HEAD_INITIALIZER	src/queue.h	89;"	d
+LIST_INIT	src/queue.h	101;"	d
+LIST_INSERT_AFTER	src/queue.h	105;"	d
+LIST_INSERT_BEFORE	src/queue.h	113;"	d
+LIST_INSERT_HEAD	src/queue.h	120;"	d
+LIST_NEXT	src/queue.h	144;"	d
+LIST_REMOVE	src/queue.h	127;"	d
+LOG	src/main.cc	114;"	d	file:
+LOG_DEBUG	liblog/log.h	/^      LOG_DEBUG = 4$/;"	e	enum:CLog::CLogLevel
+LOG_ERROR	liblog/log.h	/^      LOG_ERROR = 1,$/;"	e	enum:CLog::CLogLevel
+LOG_INFO	liblog/log.h	/^      LOG_INFO  = 3,$/;"	e	enum:CLog::CLogLevel
+LOG_NO	liblog/log.h	/^      LOG_NO    = 0,$/;"	e	enum:CLog::CLogLevel
+LOG_WARN	liblog/log.h	/^      LOG_WARN  = 2,$/;"	e	enum:CLog::CLogLevel
+LargestInt	libjson/json.h	/^      typedef Json::LargestInt LargestInt;$/;"	t	class:Json::Value
+LargestInt	libjson/json.h	/^   typedef Int64 LargestInt;$/;"	t	namespace:Json
+LargestInt	libjson/json.h	/^   typedef int LargestInt;$/;"	t	namespace:Json
+LargestUInt	libjson/json.h	/^      typedef Json::LargestUInt LargestUInt;$/;"	t	class:Json::Value
+LargestUInt	libjson/json.h	/^   typedef UInt64 LargestUInt;$/;"	t	namespace:Json
+LargestUInt	libjson/json.h	/^   typedef unsigned int LargestUInt;$/;"	t	namespace:Json
+Location	libjson/json.h	/^      typedef const Char *Location;$/;"	t	class:Json::Reader
+Lock	liblog/lock.h	/^    bool Lock() {$/;"	f	class:CGuard
+Lock	liblog/lock.h	/^    int Lock() {$/;"	f	class:CLock
+Lock	liblog/lock.h	/^    int Lock(const struct timespec* time) {$/;"	f	class:CLock
+MAX_PACKET_LEN	libsphinxclient/sphinxclient.c	70;"	d	file:
+MAX_REQS	libsphinxclient/sphinxclient.c	68;"	d	file:
+Match	cpplint/cpplint.py	/^def Match(pattern, s):$/;"	f
+Members	libjson/json.h	/^      typedef std::vector<std::string> Members;$/;"	t	class:Json::Value
+MockIo	cpplint/cpplint_unittest.py	/^class MockIo:$/;"	c
+MoveOutIdleThread	libthreadpool/CThread.cc	/^int CThreadPool::MoveOutIdleThread(pthread_t tid) {$/;"	f	class:CThreadPool
+MoveToBusy	libthreadpool/CThread.cc	/^int CThreadPool::MoveToBusy(pthread_t tid) {$/;"	f	class:CThreadPool
+MoveToIdle	libthreadpool/CThread.cc	/^int CThreadPool::MoveToIdle(pthread_t tid) {$/;"	f	class:CThreadPool
+NEW	src/http.c	17;"	d	file:
+NO_SUPPORT_QUERY_PARAM	src/main.cc	152;"	d	file:
+NO_SUPPORT_QUERY_PARAM	src/main.cc	238;"	d	file:
+NoExtension	cpplint/cpplint.py	/^  def NoExtension(self):$/;"	m	class:FileInfo
+NoNonVirtualDestructorsTest	cpplint/cpplint_unittest.py	/^class NoNonVirtualDestructorsTest(CpplintTestBase):$/;"	c
+Nodes	libjson/json.h	/^      typedef std::stack<Value *> Nodes;$/;"	t	class:Json::Reader
+NumLines	cpplint/cpplint.py	/^  def NumLines(self):$/;"	m	class:CleansedLines
+OBJ	Makefile	/^OBJ    := $(OBJ:%.c=%.o)$/;"	m
+OBJ	Makefile	/^OBJ    := $(OBJ:%.cc=%.o)$/;"	m
+OBJ	Makefile	/^OBJ    := $(OBJ:%.cpp=%.o)$/;"	m
+OBJ	Makefile	/^OBJ    := $(SRC)$/;"	m
+ObjectValues	libjson/json.h	/^      typedef CppTL::SmallMap<CZString, Value> ObjectValues;$/;"	t	class:Json::Value
+ObjectValues	libjson/json.h	/^      typedef std::map<CZString, Value> ObjectValues;$/;"	t	class:Json::Value
+OrderOfIncludesTest	cpplint/cpplint_unittest.py	/^class OrderOfIncludesTest(CpplintTestBase):$/;"	c
+PACKAGE_BUGREPORT	libsphinxclient/sphinxclient_config.h	35;"	d
+PACKAGE_NAME	libsphinxclient/sphinxclient_config.h	38;"	d
+PACKAGE_STRING	libsphinxclient/sphinxclient_config.h	41;"	d
+PACKAGE_TARNAME	libsphinxclient/sphinxclient_config.h	44;"	d
+PACKAGE_VERSION	libsphinxclient/sphinxclient_config.h	47;"	d
+PREFIX	Makefile	/^PREFIX ?= $(HOME)\/local\/sphinx-http-api$/;"	m
+PageIndex	libjson/json.h	/^      typedef unsigned int PageIndex;$/;"	t	class:Json::ValueInternalArray
+ParseArguments	cpplint/cpplint.py	/^def ParseArguments(args):$/;"	f
+ParseNolintSuppressions	cpplint/cpplint.py	/^def ParseNolintSuppressions(filename, raw_line, linenum, error):$/;"	f
+Path	libjson/json.h	/^   class Path$/;"	c	namespace:Json
+Path	libjson/jsoncpp.cpp	/^Path::Path( const std::string &path,$/;"	f	class:Json::Path
+PathArgument	libjson/json.h	/^   class PathArgument$/;"	c	namespace:Json
+PathArgument	libjson/jsoncpp.cpp	/^PathArgument::PathArgument( ArrayIndex index )$/;"	f	class:Json::PathArgument
+PathArgument	libjson/jsoncpp.cpp	/^PathArgument::PathArgument( const char *key )$/;"	f	class:Json::PathArgument
+PathArgument	libjson/jsoncpp.cpp	/^PathArgument::PathArgument( const std::string &key )$/;"	f	class:Json::PathArgument
+PathArgument	libjson/jsoncpp.cpp	/^PathArgument::PathArgument()$/;"	f	class:Json::PathArgument
+PerformFunctionLengthsCheck	cpplint/cpplint_unittest.py	/^  def PerformFunctionLengthsCheck(self, code):$/;"	m	class:CpplintTestBase
+PerformIncludeWhatYouUse	cpplint/cpplint_unittest.py	/^  def PerformIncludeWhatYouUse(self, code, filename='foo.h', io=codecs):$/;"	m	class:CpplintTestBase
+PerformLanguageRulesCheck	cpplint/cpplint_unittest.py	/^  def PerformLanguageRulesCheck(self, file_name, code):$/;"	m	class:CpplintTestBase
+PerformMultiLineLint	cpplint/cpplint_unittest.py	/^  def PerformMultiLineLint(self, code):$/;"	m	class:CpplintTestBase
+PerformSingleLineLint	cpplint/cpplint_unittest.py	/^  def PerformSingleLineLint(self, code):$/;"	m	class:CpplintTestBase
+PrintCategories	cpplint/cpplint.py	/^def PrintCategories():$/;"	f
+PrintErrorCounts	cpplint/cpplint.py	/^  def PrintErrorCounts(self):$/;"	m	class:_CppLintState
+PrintUsage	cpplint/cpplint.py	/^def PrintUsage(message):$/;"	f
+ProcessFile	cpplint/cpplint.py	/^def ProcessFile(filename, vlevel, extra_check_functions=[]):$/;"	f
+ProcessFileData	cpplint/cpplint.py	/^def ProcessFileData(filename, file_extension, lines, error,$/;"	f
+ProcessLine	cpplint/cpplint.py	/^def ProcessLine(filename, file_extension,$/;"	f
+QueryData	src/sphinx_query_data.h	/^class QueryData {$/;"	c
+RESP_HEAD	src/main.cc	679;"	d	file:
+RESP_HEAD	src/main.cc	712;"	d	file:
+Read	src/config.h	/^T Config::Read(const std::string& key) const {$/;"	f	class:Config
+Read	src/config.h	/^T Config::Read(const std::string& key, const T& value) const {$/;"	f	class:Config
+ReadFile	src/config.cc	/^void Config::ReadFile(string filename, string delimiter, string comment) {$/;"	f	class:Config
+ReadInto	src/config.h	/^bool Config::ReadInto(T& var, const std::string& key) const {$/;"	f	class:Config
+ReadInto	src/config.h	/^bool Config::ReadInto(T& var, const std::string& key, const T& value) const {$/;"	f	class:Config
+Reader	libjson/json.h	/^   class JSON_API Reader$/;"	c	namespace:Json
+Reader	libjson/jsoncpp.cpp	/^Reader::Reader( const Features &features )$/;"	f	class:Json::Reader
+Reader	libjson/jsoncpp.cpp	/^Reader::Reader()$/;"	f	class:Json::Reader
+Remove	src/config.cc	/^void Config::Remove(const string& key) {$/;"	f	class:Config
+RemoveIfPresent	cpplint/cpplint_unittest.py	/^  def RemoveIfPresent(self, substr):$/;"	m	class:ErrorCollector
+RemoveMultiLineComments	cpplint/cpplint.py	/^def RemoveMultiLineComments(filename, lines, error):$/;"	f
+RemoveMultiLineCommentsFromRange	cpplint/cpplint.py	/^def RemoveMultiLineCommentsFromRange(lines, begin, end):$/;"	f
+ReplaceableCheck	cpplint/cpplint.py	/^def ReplaceableCheck(operator, macro, line):$/;"	f
+RepositoryName	cpplint/cpplint.py	/^  def RepositoryName(self):$/;"	m	class:FileInfo
+ResetErrorCounts	cpplint/cpplint.py	/^  def ResetErrorCounts(self):$/;"	m	class:_CppLintState
+ResetNolintSuppressions	cpplint/cpplint.py	/^def ResetNolintSuppressions():$/;"	f
+ResultList	cpplint/cpplint_unittest.py	/^  def ResultList(self):$/;"	m	class:ErrorCollector
+Results	cpplint/cpplint_unittest.py	/^  def Results(self):$/;"	m	class:ErrorCollector
+Run	src/main.cc	/^    int Run() {$/;"	f	class:SimpleWorkTask
+SEARCHD_COMMAND_EXCERPT	libsphinxclient/sphinxclient.c	/^	SEARCHD_COMMAND_EXCERPT		= 1,$/;"	e	enum:__anon12	file:
+SEARCHD_COMMAND_KEYWORDS	libsphinxclient/sphinxclient.c	/^	SEARCHD_COMMAND_KEYWORDS	= 3,$/;"	e	enum:__anon12	file:
+SEARCHD_COMMAND_PERSIST	libsphinxclient/sphinxclient.c	/^	SEARCHD_COMMAND_PERSIST		= 4,$/;"	e	enum:__anon12	file:
+SEARCHD_COMMAND_SEARCH	libsphinxclient/sphinxclient.c	/^	SEARCHD_COMMAND_SEARCH		= 0,$/;"	e	enum:__anon12	file:
+SEARCHD_COMMAND_STATUS	libsphinxclient/sphinxclient.c	/^	SEARCHD_COMMAND_STATUS		= 5$/;"	e	enum:__anon12	file:
+SEARCHD_COMMAND_UPDATE	libsphinxclient/sphinxclient.c	/^	SEARCHD_COMMAND_UPDATE		= 2,$/;"	e	enum:__anon12	file:
+SEARCHD_ERROR	libsphinxclient/sphinxclient.h	/^	SEARCHD_ERROR			= 1,$/;"	e	enum:__anon5
+SEARCHD_OK	libsphinxclient/sphinxclient.h	/^	SEARCHD_OK				= 0,$/;"	e	enum:__anon5
+SEARCHD_RETRY	libsphinxclient/sphinxclient.h	/^	SEARCHD_RETRY			= 2,$/;"	e	enum:__anon5
+SEARCHD_WARNING	libsphinxclient/sphinxclient.h	/^	SEARCHD_WARNING			= 3$/;"	e	enum:__anon5
+SIMPLEQ_EMPTY	src/queue.h	359;"	d
+SIMPLEQ_ENTRY	src/queue.h	302;"	d
+SIMPLEQ_FIRST	src/queue.h	360;"	d
+SIMPLEQ_FOREACH	src/queue.h	351;"	d
+SIMPLEQ_HEAD	src/queue.h	293;"	d
+SIMPLEQ_HEAD_INITIALIZER	src/queue.h	299;"	d
+SIMPLEQ_INIT	src/queue.h	310;"	d
+SIMPLEQ_INSERT_AFTER	src/queue.h	327;"	d
+SIMPLEQ_INSERT_HEAD	src/queue.h	315;"	d
+SIMPLEQ_INSERT_TAIL	src/queue.h	321;"	d
+SIMPLEQ_NEXT	src/queue.h	361;"	d
+SIMPLEQ_REMOVE	src/queue.h	338;"	d
+SIMPLEQ_REMOVE_HEAD	src/queue.h	333;"	d
+SLIST_EMPTY	src/queue.h	203;"	d
+SLIST_ENTRY	src/queue.h	158;"	d
+SLIST_FIRST	src/queue.h	204;"	d
+SLIST_FOREACH	src/queue.h	197;"	d
+SLIST_HEAD	src/queue.h	150;"	d
+SLIST_HEAD_INITIALIZER	src/queue.h	155;"	d
+SLIST_INIT	src/queue.h	166;"	d
+SLIST_INSERT_AFTER	src/queue.h	170;"	d
+SLIST_INSERT_HEAD	src/queue.h	175;"	d
+SLIST_NEXT	src/queue.h	205;"	d
+SLIST_REMOVE	src/queue.h	184;"	d
+SLIST_REMOVE_HEAD	src/queue.h	180;"	d
+SPH_ATTR_BOOL	libsphinxclient/sphinxclient.h	/^	SPH_ATTR_BOOL			= 4,$/;"	e	enum:__anon10
+SPH_ATTR_FLOAT	libsphinxclient/sphinxclient.h	/^	SPH_ATTR_FLOAT			= 5,$/;"	e	enum:__anon10
+SPH_ATTR_INTEGER	libsphinxclient/sphinxclient.h	/^	SPH_ATTR_INTEGER		= 1,$/;"	e	enum:__anon10
+SPH_ATTR_MULTI	libsphinxclient/sphinxclient.h	/^	SPH_ATTR_MULTI			= 0x40000000UL$/;"	e	enum:__anon10
+SPH_ATTR_ORDINAL	libsphinxclient/sphinxclient.h	/^	SPH_ATTR_ORDINAL		= 3,$/;"	e	enum:__anon10
+SPH_ATTR_TIMESTAMP	libsphinxclient/sphinxclient.h	/^	SPH_ATTR_TIMESTAMP		= 2,$/;"	e	enum:__anon10
+SPH_FALSE	libsphinxclient/sphinxclient.h	103;"	d
+SPH_FD_SET	libsphinxclient/sphinxclient.c	/^void SPH_FD_SET ( int fd, fd_set * fdset ) { FD_SET ( fd, fdset ); }$/;"	f
+SPH_FD_SET	libsphinxclient/sphinxclient.c	1288;"	d	file:
+SPH_FILTER_FLOATRANGE	libsphinxclient/sphinxclient.h	/^	SPH_FILTER_FLOATRANGE	= 2$/;"	e	enum:__anon9
+SPH_FILTER_RANGE	libsphinxclient/sphinxclient.h	/^	SPH_FILTER_RANGE		= 1,$/;"	e	enum:__anon9
+SPH_FILTER_VALUES	libsphinxclient/sphinxclient.h	/^{	SPH_FILTER_VALUES		= 0,$/;"	e	enum:__anon9
+SPH_GROUPBY_ATTR	libsphinxclient/sphinxclient.h	/^	SPH_GROUPBY_ATTR		= 4,$/;"	e	enum:__anon11
+SPH_GROUPBY_ATTRPAIR	libsphinxclient/sphinxclient.h	/^	SPH_GROUPBY_ATTRPAIR	= 5$/;"	e	enum:__anon11
+SPH_GROUPBY_DAY	libsphinxclient/sphinxclient.h	/^{	SPH_GROUPBY_DAY			= 0,$/;"	e	enum:__anon11
+SPH_GROUPBY_MONTH	libsphinxclient/sphinxclient.h	/^	SPH_GROUPBY_MONTH		= 2,$/;"	e	enum:__anon11
+SPH_GROUPBY_WEEK	libsphinxclient/sphinxclient.h	/^	SPH_GROUPBY_WEEK		= 1,$/;"	e	enum:__anon11
+SPH_GROUPBY_YEAR	libsphinxclient/sphinxclient.h	/^	SPH_GROUPBY_YEAR		= 3,$/;"	e	enum:__anon11
+SPH_MATCH_ALL	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_ALL			= 0,$/;"	e	enum:__anon6
+SPH_MATCH_ANY	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_ANY			= 1,$/;"	e	enum:__anon6
+SPH_MATCH_BOOLEAN	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_BOOLEAN		= 3,$/;"	e	enum:__anon6
+SPH_MATCH_EXTENDED	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_EXTENDED		= 4,$/;"	e	enum:__anon6
+SPH_MATCH_EXTENDED2	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_EXTENDED2		= 6$/;"	e	enum:__anon6
+SPH_MATCH_FULLSCAN	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_FULLSCAN		= 5,$/;"	e	enum:__anon6
+SPH_MATCH_PHRASE	libsphinxclient/sphinxclient.h	/^	SPH_MATCH_PHRASE		= 2,$/;"	e	enum:__anon6
+SPH_RANK_BM25	libsphinxclient/sphinxclient.h	/^	SPH_RANK_BM25			= 1,$/;"	e	enum:__anon7
+SPH_RANK_NONE	libsphinxclient/sphinxclient.h	/^	SPH_RANK_NONE			= 2,$/;"	e	enum:__anon7
+SPH_RANK_PROXIMITY_BM25	libsphinxclient/sphinxclient.h	/^	SPH_RANK_PROXIMITY_BM25	= 0,$/;"	e	enum:__anon7
+SPH_RANK_WORDCOUNT	libsphinxclient/sphinxclient.h	/^	SPH_RANK_WORDCOUNT		= 3$/;"	e	enum:__anon7
+SPH_SORT_ATTR_ASC	libsphinxclient/sphinxclient.h	/^	SPH_SORT_ATTR_ASC		= 2,$/;"	e	enum:__anon8
+SPH_SORT_ATTR_DESC	libsphinxclient/sphinxclient.h	/^	SPH_SORT_ATTR_DESC		= 1,$/;"	e	enum:__anon8
+SPH_SORT_EXPR	libsphinxclient/sphinxclient.h	/^	SPH_SORT_EXPR			= 5$/;"	e	enum:__anon8
+SPH_SORT_EXTENDED	libsphinxclient/sphinxclient.h	/^	SPH_SORT_EXTENDED		= 4,$/;"	e	enum:__anon8
+SPH_SORT_RELEVANCE	libsphinxclient/sphinxclient.h	/^	SPH_SORT_RELEVANCE		= 0,$/;"	e	enum:__anon8
+SPH_SORT_TIME_SEGMENTS	libsphinxclient/sphinxclient.h	/^	SPH_SORT_TIME_SEGMENTS	= 3,$/;"	e	enum:__anon8
+SPH_TRUE	libsphinxclient/sphinxclient.h	102;"	d
+SRC	Makefile	/^SRC    := $(shell find $(SUBDIR) -regextype posix-egrep -regex '.*\\.(c|cpp|cc)')$/;"	m
+SRC2	Makefile	/^SRC2   := $(shell echo $(SRC2) | sed "s\/[^ ]*queue\\.h\/\/")$/;"	m
+SRC2	Makefile	/^SRC2   := $(shell find $(SUBDIR2) -regextype posix-egrep -regex '.*\\.(h|c|cpp|cc)')$/;"	m
+SRC_BUFFER_H_	src/buffer.h	3;"	d
+SRC_CONFIG_H_	src/config.h	7;"	d
+SRC_HTTP_H_	src/http.h	4;"	d
+SRC_SEARCH_RESULT_H_	src/search_result.h	7;"	d
+SRC_SPHINX_QUERY_DATA_H_	src/sphinx_query_data.h	7;"	d
+SRC_UTILS_H_	src/utils.h	3;"	d
+STAILQ_CONCAT	src/queue.h	274;"	d
+STAILQ_EMPTY	src/queue.h	285;"	d
+STAILQ_ENTRY	src/queue.h	220;"	d
+STAILQ_FIRST	src/queue.h	286;"	d
+STAILQ_FOREACH	src/queue.h	269;"	d
+STAILQ_HEAD	src/queue.h	211;"	d
+STAILQ_HEAD_INITIALIZER	src/queue.h	217;"	d
+STAILQ_INIT	src/queue.h	228;"	d
+STAILQ_INSERT_AFTER	src/queue.h	245;"	d
+STAILQ_INSERT_HEAD	src/queue.h	233;"	d
+STAILQ_INSERT_TAIL	src/queue.h	239;"	d
+STAILQ_NEXT	src/queue.h	287;"	d
+STAILQ_REMOVE	src/queue.h	256;"	d
+STAILQ_REMOVE_HEAD	src/queue.h	251;"	d
+STDC_HEADERS	libsphinxclient/sphinxclient_config.h	53;"	d
+STR_TO_NUMB	src/sphinx_query_data.h	102;"	d
+STR_TO_NUMB	src/sphinx_query_data.h	79;"	d
+SUBDIR	Makefile	/^SUBDIR := liblog libsphinxclient libthreadpool libjson src$/;"	m
+SUBDIR2	Makefile	/^SUBDIR2:= liblog libthreadpool src$/;"	m
+SWAP	src/buffer.c	27;"	d	file:
+Search	cpplint/cpplint.py	/^def Search(pattern, s):$/;"	f
+SearchResult	src/search_result.h	/^    SearchResult() : res_(NULL), client_(NULL) {$/;"	f	class:SearchResult
+SearchResult	src/search_result.h	/^    SearchResult(const SearchResult & other) {$/;"	f	class:SearchResult
+SearchResult	src/search_result.h	/^    SearchResult(sphinx_client * const client, sphinx_result * const res) {$/;"	f	class:SearchResult
+SearchResult	src/search_result.h	/^class SearchResult {$/;"	c
+SelfType	libjson/json.h	/^      typedef ValueConstIterator SelfType;$/;"	t	class:Json::ValueConstIterator
+SelfType	libjson/json.h	/^      typedef ValueIterator SelfType;$/;"	t	class:Json::ValueIterator
+SelfType	libjson/json.h	/^      typedef ValueIteratorBase SelfType;$/;"	t	class:Json::ValueIteratorBase
+SetComment	src/config.h	/^    std::string SetComment(const std::string& in_s) {$/;"	f	class:Config
+SetCountingStyle	cpplint/cpplint.py	/^  def SetCountingStyle(self, counting_style):$/;"	m	class:_CppLintState
+SetData	libthreadpool/CThread.h	/^    void SetData(void* data) { m_ptrData = data; }  \/\/ 设置任务数据$/;"	f	class:CTask
+SetDelimiter	src/config.h	/^    std::string SetDelimiter(const std::string& in_s) {$/;"	f	class:Config
+SetFilters	cpplint/cpplint.py	/^  def SetFilters(self, filters):$/;"	m	class:_CppLintState
+SetOutputFormat	cpplint/cpplint.py	/^  def SetOutputFormat(self, output_format):$/;"	m	class:_CppLintState
+SetSignalHandle	src/main.cc	/^void SetSignalHandle(void) {$/;"	f
+SetVerboseLevel	cpplint/cpplint.py	/^  def SetVerboseLevel(self, level):$/;"	m	class:_CppLintState
+SimpleWorkTask	src/main.cc	/^    explicit SimpleWorkTask(struct ClientInfo * socket_client) {$/;"	f	class:SimpleWorkTask
+SimpleWorkTask	src/main.cc	/^class SimpleWorkTask: public CTask {$/;"	c	file:
+SockConnection	src/main.cc	/^struct SockConnection {$/;"	s	file:
+SphinxQueryData	src/sphinx_query_data.h	/^    explicit SphinxQueryData(QueryData & qd) {$/;"	f	class:SphinxQueryData
+SphinxQueryData	src/sphinx_query_data.h	/^class SphinxQueryData {$/;"	c
+Split	cpplint/cpplint.py	/^  def Split(self):$/;"	m	class:FileInfo
+StaticString	libjson/json.h	/^      explicit StaticString( const char *czstring )$/;"	f	class:Json::StaticString
+StaticString	libjson/json.h	/^   class JSON_API StaticString$/;"	c	namespace:Json
+Statistic	src/main.cc	/^    Statistic():query_count(0),$/;"	f	class:Statistic
+Statistic	src/main.cc	/^class Statistic {$/;"	c	file:
+StopAll	libthreadpool/CThread.cc	/^int CThreadPool::StopAll() {$/;"	f	class:CThreadPool
+StyledStreamWriter	libjson/json.h	/^   class JSON_API StyledStreamWriter$/;"	c	namespace:Json
+StyledStreamWriter	libjson/jsoncpp.cpp	/^StyledStreamWriter::StyledStreamWriter( std::string indentation )$/;"	f	class:Json::StyledStreamWriter
+StyledWriter	libjson/json.h	/^   class JSON_API StyledWriter: public Writer$/;"	c	namespace:Json
+StyledWriter	libjson/jsoncpp.cpp	/^StyledWriter::StyledWriter()$/;"	f	class:Json::StyledWriter
+TAILQ_CONCAT	src/queue.h	445;"	d
+TAILQ_EMPTY	src/queue.h	457;"	d
+TAILQ_ENTRY	src/queue.h	382;"	d
+TAILQ_FIRST	src/queue.h	458;"	d
+TAILQ_FOREACH	src/queue.h	435;"	d
+TAILQ_FOREACH_REVERSE	src/queue.h	440;"	d
+TAILQ_HEAD	src/queue.h	372;"	d
+TAILQ_HEAD_INITIALIZER	src/queue.h	374;"	d
+TAILQ_INIT	src/queue.h	387;"	d
+TAILQ_INSERT_AFTER	src/queue.h	409;"	d
+TAILQ_INSERT_BEFORE	src/queue.h	419;"	d
+TAILQ_INSERT_HEAD	src/queue.h	392;"	d
+TAILQ_INSERT_TAIL	src/queue.h	402;"	d
+TAILQ_LAST	src/queue.h	461;"	d
+TAILQ_NEXT	src/queue.h	459;"	d
+TAILQ_PREV	src/queue.h	463;"	d
+TAILQ_REMOVE	src/queue.h	426;"	d
+TARGET	Makefile	/^TARGET := sphinx_http_api$/;"	m
+TCP_NODELAY	libsphinxclient/sphinxclient.c	62;"	d	file:
+THROW_F_E	src/sphinx_query_data.h	401;"	d
+THROW_F_E	src/sphinx_query_data.h	77;"	d
+TRACE_F	src/main.cc	135;"	d	file:
+T_as_string	src/config.h	/^std::string Config::T_as_string(const T& t) {$/;"	f	class:Config
+TestBlankLinesCheck	cpplint/cpplint_unittest.py	/^  def TestBlankLinesCheck(self, lines, start_errors, end_errors):$/;"	m	class:CpplintTestBase
+TestFunctionLengthCheckAboveErrorLevel	cpplint/cpplint_unittest.py	/^  def TestFunctionLengthCheckAboveErrorLevel(self, error_level):$/;"	m	class:CheckForFunctionLengthsTest
+TestFunctionLengthCheckAtErrorLevel	cpplint/cpplint_unittest.py	/^  def TestFunctionLengthCheckAtErrorLevel(self, error_level):$/;"	m	class:CheckForFunctionLengthsTest
+TestFunctionLengthCheckBelowErrorLevel	cpplint/cpplint_unittest.py	/^  def TestFunctionLengthCheckBelowErrorLevel(self, error_level):$/;"	m	class:CheckForFunctionLengthsTest
+TestFunctionLengthCheckDefinition	cpplint/cpplint_unittest.py	/^  def TestFunctionLengthCheckDefinition(self, lines, error_level):$/;"	m	class:CheckForFunctionLengthsTest
+TestFunctionLengthCheckDefinitionOK	cpplint/cpplint_unittest.py	/^  def TestFunctionLengthCheckDefinitionOK(self, lines):$/;"	m	class:CheckForFunctionLengthsTest
+TestFunctionLengthsCheck	cpplint/cpplint_unittest.py	/^  def TestFunctionLengthsCheck(self, code, expected_message):$/;"	m	class:CheckForFunctionLengthsTest
+TestIncludeWhatYouUse	cpplint/cpplint_unittest.py	/^  def TestIncludeWhatYouUse(self, code, expected_message):$/;"	m	class:CpplintTestBase
+TestLanguageRulesCheck	cpplint/cpplint_unittest.py	/^  def TestLanguageRulesCheck(self, file_name, code, expected_message):$/;"	m	class:CpplintTestBase
+TestLines	cpplint/cpplint_unittest.py	/^  def TestLines(self, error_level):$/;"	m	class:CheckForFunctionLengthsTest
+TestLint	cpplint/cpplint_unittest.py	/^  def TestLint(self, code, expected_message):$/;"	m	class:CpplintTestBase
+TestLintLogCodeOnError	cpplint/cpplint_unittest.py	/^  def TestLintLogCodeOnError(self, code, expected_message):$/;"	m	class:CpplintTest
+TestMultiLineLint	cpplint/cpplint_unittest.py	/^  def TestMultiLineLint(self, code, expected_message):$/;"	m	class:CpplintTestBase
+TestMultiLineLintRE	cpplint/cpplint_unittest.py	/^  def TestMultiLineLintRE(self, code, expected_message_re):$/;"	m	class:CpplintTestBase
+ThreadFunc	libthreadpool/CThread.cc	/^void* CThreadPool::ThreadFunc(void * p_thread_pool) {$/;"	f	class:CThreadPool
+Token	libjson/json.h	/^      class Token$/;"	c	class:Json::Reader
+TokenType	libjson/json.h	/^      enum TokenType$/;"	g	class:Json::Reader
+TriggerLines	cpplint/cpplint_unittest.py	/^  def TriggerLines(self, error_level):$/;"	m	class:CheckForFunctionLengthsTest
+Trim	src/config.cc	/^void Config::Trim(string& inout_s) {$/;"	f	class:Config
+TryLock	liblog/lock.h	/^    int TryLock() {$/;"	f	class:CLock
+Type	libjson/jsoncpp.cpp	/^   typedef AllocatedType Type;$/;"	t	class:Json::BatchAllocator	file:
+Type	src/sphinx_query_data.h	/^      enum Type {$/;"	g	struct:SphinxQueryData::Filter
+UInt	libjson/json.h	/^      typedef Json::UInt UInt;$/;"	t	class:Json::Value
+UInt	libjson/json.h	/^   typedef unsigned int UInt;$/;"	t	namespace:Json
+UInt64	libjson/json.h	/^      typedef Json::UInt64 UInt64;$/;"	t	class:Json::Value
+UInt64	libjson/json.h	/^   typedef unsigned __int64 UInt64;$/;"	t	namespace:Json
+UInt64	libjson/json.h	/^   typedef unsigned long long int UInt64;$/;"	t	namespace:Json
+UIntToStringBuffer	libjson/jsoncpp.cpp	/^typedef char UIntToStringBuffer[uintToStringBufferSize];$/;"	t	namespace:Json	file:
+UnLock	liblog/lock.h	/^    int UnLock() {$/;"	f	class:CLock
+UnLock	liblog/lock.h	/^    void UnLock() {$/;"	f	class:CGuard
+UpdateIncludeState	cpplint/cpplint.py	/^def UpdateIncludeState(filename, include_state, io=codecs):$/;"	f
+VER_COMMAND_EXCERPT	libsphinxclient/sphinxclient.c	/^	VER_COMMAND_EXCERPT			= 0x100,$/;"	e	enum:__anon13	file:
+VER_COMMAND_KEYWORDS	libsphinxclient/sphinxclient.c	/^	VER_COMMAND_KEYWORDS		= 0x100,$/;"	e	enum:__anon13	file:
+VER_COMMAND_STATUS	libsphinxclient/sphinxclient.c	/^	VER_COMMAND_STATUS			= 0x100$/;"	e	enum:__anon13	file:
+VER_COMMAND_UPDATE	libsphinxclient/sphinxclient.c	/^	VER_COMMAND_UPDATE			= 0x101,$/;"	e	enum:__anon13	file:
+Value	libjson/json.h	/^   class JSON_API Value $/;"	c	namespace:Json
+Value	libjson/jsoncpp.cpp	/^Value::Value( Int value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( Int64 value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( UInt value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( UInt64 value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( ValueType type )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( bool value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( const CppTL::ConstString &value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( const StaticString &value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( const Value &other )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( const char *beginValue, $/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( const char *value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( const std::string &value )$/;"	f	class:Json::Value
+Value	libjson/jsoncpp.cpp	/^Value::Value( double value )$/;"	f	class:Json::Value
+ValueArrayAllocator	libjson/json.h	/^   class JSON_API ValueArrayAllocator$/;"	c	namespace:Json
+ValueConstIterator	libjson/json.h	/^   class ValueConstIterator : public ValueIteratorBase$/;"	c	namespace:Json
+ValueConstIterator	libjson/jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator( const Value::ObjectValues::iterator &current )$/;"	f	class:Json::ValueConstIterator
+ValueConstIterator	libjson/jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator( const ValueInternalArray::IteratorState &state )$/;"	f	class:Json::ValueConstIterator
+ValueConstIterator	libjson/jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator( const ValueInternalMap::IteratorState &state )$/;"	f	class:Json::ValueConstIterator
+ValueConstIterator	libjson/jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator()$/;"	f	class:Json::ValueConstIterator
+ValueHolder	libjson/json.h	/^      union ValueHolder$/;"	u	class:Json::Value
+ValueInternalArray	libjson/json.h	/^   class JSON_API ValueInternalArray$/;"	c	namespace:Json
+ValueInternalLink	libjson/json.h	/^   class JSON_API ValueInternalLink$/;"	c	namespace:Json
+ValueInternalMap	libjson/json.h	/^   class JSON_API ValueInternalMap$/;"	c	namespace:Json
+ValueIterator	libjson/json.h	/^   class ValueIterator : public ValueIteratorBase$/;"	c	namespace:Json
+ValueIterator	libjson/jsoncpp.cpp	/^ValueIterator::ValueIterator( const Value::ObjectValues::iterator &current )$/;"	f	class:Json::ValueIterator
+ValueIterator	libjson/jsoncpp.cpp	/^ValueIterator::ValueIterator( const ValueConstIterator &other )$/;"	f	class:Json::ValueIterator
+ValueIterator	libjson/jsoncpp.cpp	/^ValueIterator::ValueIterator( const ValueInternalArray::IteratorState &state )$/;"	f	class:Json::ValueIterator
+ValueIterator	libjson/jsoncpp.cpp	/^ValueIterator::ValueIterator( const ValueInternalMap::IteratorState &state )$/;"	f	class:Json::ValueIterator
+ValueIterator	libjson/jsoncpp.cpp	/^ValueIterator::ValueIterator( const ValueIterator &other )$/;"	f	class:Json::ValueIterator
+ValueIterator	libjson/jsoncpp.cpp	/^ValueIterator::ValueIterator()$/;"	f	class:Json::ValueIterator
+ValueIteratorBase	libjson/json.h	/^   class ValueIteratorBase$/;"	c	namespace:Json
+ValueIteratorBase	libjson/jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase( const Value::ObjectValues::iterator &current )$/;"	f	class:Json::ValueIteratorBase
+ValueIteratorBase	libjson/jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase( const ValueInternalArray::IteratorState &state )$/;"	f	class:Json::ValueIteratorBase
+ValueIteratorBase	libjson/jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase( const ValueInternalMap::IteratorState &state )$/;"	f	class:Json::ValueIteratorBase
+ValueIteratorBase	libjson/jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase()$/;"	f	class:Json::ValueIteratorBase
+ValueMapAllocator	libjson/json.h	/^   class JSON_API ValueMapAllocator$/;"	c	namespace:Json
+ValueType	libjson/json.h	/^   enum ValueType$/;"	g	namespace:Json
+VerifyAllCategoriesAreSeen	cpplint/cpplint_unittest.py	/^  def VerifyAllCategoriesAreSeen(self):$/;"	m	class:ErrorCollector
+WARN_LOG	src/main.cc	131;"	d	file:
+WRITE_LOG	liblog/log.cc	12;"	d	file:
+Writer	libjson/json.h	/^   class JSON_API Writer$/;"	c	namespace:Json
+_CRT_NONSTDC_NO_DEPRECATE	libsphinxclient/sphinxclient.c	16;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	libsphinxclient/sphinxclient.c	15;"	d	file:
+_ClassInfo	cpplint/cpplint.py	/^class _ClassInfo(object):$/;"	c
+_ClassState	cpplint/cpplint.py	/^class _ClassState(object):$/;"	c
+_ClassifyInclude	cpplint/cpplint.py	/^def _ClassifyInclude(fileinfo, include, is_system):$/;"	f
+_CollapseStrings	cpplint/cpplint.py	/^  def _CollapseStrings(elided):$/;"	m	class:CleansedLines
+_CppLintState	cpplint/cpplint.py	/^class _CppLintState(object):$/;"	c
+_DropCommonSuffixes	cpplint/cpplint.py	/^def _DropCommonSuffixes(filename):$/;"	f
+_Filters	cpplint/cpplint.py	/^def _Filters():$/;"	f
+_FunctionState	cpplint/cpplint.py	/^class _FunctionState(object):$/;"	c
+_GetTextInside	cpplint/cpplint.py	/^def _GetTextInside(text, start_pattern):$/;"	f
+_IncludeError	cpplint/cpplint.py	/^class _IncludeError(Exception):$/;"	c
+_IncludeState	cpplint/cpplint.py	/^class _IncludeState(dict):$/;"	c
+_IsTestFilename	cpplint/cpplint.py	/^def _IsTestFilename(filename):$/;"	f
+_OutputFormat	cpplint/cpplint.py	/^def _OutputFormat():$/;"	f
+_SYS_QUEUE_H_	src/queue.h	33;"	d
+_SetCountingStyle	cpplint/cpplint.py	/^def _SetCountingStyle(level):$/;"	f
+_SetFilters	cpplint/cpplint.py	/^def _SetFilters(filters):$/;"	f
+_SetOutputFormat	cpplint/cpplint.py	/^def _SetOutputFormat(output_format):$/;"	f
+_SetVerboseLevel	cpplint/cpplint.py	/^def _SetVerboseLevel(level):$/;"	f
+_ShouldPrintError	cpplint/cpplint.py	/^def _ShouldPrintError(category, confidence, linenum):$/;"	f
+_TAILQ_ENTRY	src/queue.h	377;"	d
+_TAILQ_HEAD	src/queue.h	367;"	d
+_VerboseLevel	cpplint/cpplint.py	/^def _VerboseLevel():$/;"	f
+__call__	cpplint/cpplint_unittest.py	/^  def __call__(self, unused_filename, linenum,$/;"	m	class:ErrorCollector	file:
+__init__	cpplint/cpplint.py	/^  def __init__(self):$/;"	m	class:_ClassState
+__init__	cpplint/cpplint.py	/^  def __init__(self):$/;"	m	class:_CppLintState
+__init__	cpplint/cpplint.py	/^  def __init__(self):$/;"	m	class:_FunctionState
+__init__	cpplint/cpplint.py	/^  def __init__(self):$/;"	m	class:_IncludeState
+__init__	cpplint/cpplint.py	/^  def __init__(self, filename):$/;"	m	class:FileInfo
+__init__	cpplint/cpplint.py	/^  def __init__(self, lines):$/;"	m	class:CleansedLines
+__init__	cpplint/cpplint.py	/^  def __init__(self, name, clean_lines, linenum):$/;"	m	class:_ClassInfo
+__init__	cpplint/cpplint_unittest.py	/^  def __init__(self, assert_fn):$/;"	m	class:ErrorCollector
+__init__	cpplint/cpplint_unittest.py	/^  def __init__(self, mock_file):$/;"	m	class:MockIo
+_error_text	liblog/log.h	/^    char _error_text[256];$/;"	m	class:CLog
+_fp	liblog/log.h	/^    FILE * _fp;$/;"	m	class:CLog
+_log_buf	liblog/log.h	/^    char _log_buf[16*1024];  \/\/ cache log content$/;"	m	class:CLog
+_log_file_idx	liblog/log.h	/^    int _log_file_idx;  \/\/ 记录日志文件的后缀序号$/;"	m	class:CLog
+_log_level	liblog/log.h	/^    int _log_level;$/;"	m	class:CLog
+_log_lock	liblog/log.h	/^    CLock _log_lock;$/;"	m	class:CLog
+_log_num	liblog/log.h	/^    int _log_num;$/;"	m	class:CLog
+_log_path_name	liblog/log.h	/^    char _log_path_name[256];$/;"	m	class:CLog
+_log_size	liblog/log.h	/^    int _log_size;$/;"	m	class:CLog
+_max_log_num	liblog/log.h	/^    int _max_log_num;$/;"	m	class:CLog
+_max_log_size	liblog/log.h	/^    int _max_log_size;$/;"	m	class:CLog
+_sphinxclient_	libsphinxclient/sphinxclient.h	15;"	d
+_write	liblog/log.cc	/^int CLog::_write(const char *str) {$/;"	f	class:CLog
+accept_conn_cb	src/main.cc	/^static void accept_conn_cb(int fd, struct sockaddr_in *address) {$/;"	f	file:
+addChildValues_	libjson/json.h	/^      bool addChildValues_;$/;"	m	class:Json::StyledStreamWriter
+addChildValues_	libjson/json.h	/^      bool addChildValues_;$/;"	m	class:Json::StyledWriter
+addComment	libjson/jsoncpp.cpp	/^Reader::addComment( Location begin, $/;"	f	class:Json::Reader
+addError	libjson/jsoncpp.cpp	/^Reader::addError( const std::string &message, $/;"	f	class:Json::Reader
+addErrorAndRecover	libjson/jsoncpp.cpp	/^Reader::addErrorAndRecover( const std::string &message, $/;"	f	class:Json::Reader
+addPathInArg	libjson/jsoncpp.cpp	/^Path::addPathInArg( const std::string &path, $/;"	f	class:Json::Path
+add_status_info	src/main.cc	/^static void add_status_info(Json::Value &root) {$/;"	f	file:
+add_time_header	src/http.c	/^void add_time_header(struct buffer *buf) {$/;"	f
+after_match	libsphinxclient/sphinxclient.h	/^	const char *			after_match;$/;"	m	struct:st_sphinx_excerpt_options
+all	libjson/jsoncpp.cpp	/^Features::all()$/;"	f	class:Json::Features
+all_is_digit	src/utils.h	/^inline bool all_is_digit(const string str) {$/;"	f
+allocate	libjson/jsoncpp.cpp	/^   AllocatedType *allocate()$/;"	f	class:Json::BatchAllocator
+allocateBatch	libjson/jsoncpp.cpp	/^   static BatchInfo *allocateBatch( unsigned int objectsPerPage )$/;"	f	class:Json::BatchAllocator	file:
+allowComments_	libjson/json.h	/^      bool allowComments_;$/;"	m	class:Json::Features
+append	libjson/jsoncpp.cpp	/^Value::append( const Value &value )$/;"	f	class:Json::Value
+args_	libjson/json.h	/^      Args args_;$/;"	m	class:Json::Path
+around	libsphinxclient/sphinxclient.h	/^	int						around;$/;"	m	struct:st_sphinx_excerpt_options
+arrayValue	libjson/json.h	/^      arrayValue,    \/\/\/< array value (ordered list)$/;"	e	enum:Json::ValueType
+array_	libjson/json.h	/^         ValueInternalArray *array_;$/;"	m	struct:Json::ValueInternalArray::IteratorState
+array_	libjson/json.h	/^         ValueInternalArray *array_;$/;"	m	union:Json::Value::ValueHolder
+array_	libjson/json.h	/^         ValueInternalArray::IteratorState array_;$/;"	m	union:Json::ValueIteratorBase::__anon16
+asBool	libjson/jsoncpp.cpp	/^Value::asBool() const$/;"	f	class:Json::Value
+asCString	libjson/jsoncpp.cpp	/^Value::asCString() const$/;"	f	class:Json::Value
+asConstString	libjson/jsoncpp.cpp	/^Value::asConstString() const$/;"	f	class:Json::Value
+asDouble	libjson/jsoncpp.cpp	/^Value::asDouble() const$/;"	f	class:Json::Value
+asFloat	libjson/jsoncpp.cpp	/^Value::asFloat() const$/;"	f	class:Json::Value
+asInt	libjson/jsoncpp.cpp	/^Value::asInt() const$/;"	f	class:Json::Value
+asInt64	libjson/jsoncpp.cpp	/^Value::asInt64() const$/;"	f	class:Json::Value
+asLargestInt	libjson/jsoncpp.cpp	/^Value::asLargestInt() const$/;"	f	class:Json::Value
+asLargestUInt	libjson/jsoncpp.cpp	/^Value::asLargestUInt() const$/;"	f	class:Json::Value
+asString	libjson/jsoncpp.cpp	/^Value::asString() const$/;"	f	class:Json::Value
+asUInt	libjson/jsoncpp.cpp	/^Value::asUInt() const$/;"	f	class:Json::Value
+asUInt64	libjson/jsoncpp.cpp	/^Value::asUInt64() const$/;"	f	class:Json::Value
+attr	libsphinxclient/sphinxclient.c	/^	const char *			attr;$/;"	m	struct:st_filter	file:
+attr	libsphinxclient/sphinxclient.c	/^	const char *			attr;$/;"	m	struct:st_override	file:
+attr_name	src/sphinx_query_data.h	/^      string attr_name;$/;"	m	struct:SphinxQueryData::Filter
+attr_names	libsphinxclient/sphinxclient.h	/^	char **					attr_names;$/;"	m	struct:st_sphinx_result
+attr_types	libsphinxclient/sphinxclient.h	/^	int *					attr_types;$/;"	m	struct:st_sphinx_result
+batches_	libjson/jsoncpp.cpp	/^   BatchInfo *batches_;$/;"	m	class:Json::BatchAllocator	file:
+before_match	libsphinxclient/sphinxclient.h	/^	const char *			before_match;$/;"	m	struct:st_sphinx_excerpt_options
+begin	libjson/jsoncpp.cpp	/^Value::begin() const$/;"	f	class:Json::Value
+begin	libjson/jsoncpp.cpp	/^Value::begin()$/;"	f	class:Json::Value
+begin_	libjson/json.h	/^      Location begin_;$/;"	m	class:Json::Reader
+bool_	libjson/json.h	/^         bool bool_;$/;"	m	union:Json::Value::ValueHolder
+booleanValue	libjson/json.h	/^      booleanValue,  \/\/\/< bool value$/;"	e	enum:Json::ValueType
+bucketIndex_	libjson/json.h	/^         BucketIndex bucketIndex_;$/;"	m	struct:Json::ValueInternalMap::IteratorState
+bucketsSize_	libjson/json.h	/^      BucketIndex bucketsSize_;$/;"	m	class:Json::ValueInternalMap
+buckets_	libjson/json.h	/^      ValueInternalLink *buckets_;$/;"	m	class:Json::ValueInternalMap
+buffer	src/buffer.h	/^    u_char *buffer;$/;"	m	struct:buffer
+buffer	src/buffer.h	/^  struct buffer {$/;"	s
+buffer_	libjson/jsoncpp.cpp	/^      AllocatedType buffer_[objectPerAllocation];$/;"	m	struct:Json::BatchAllocator::BatchInfo	file:
+buffer_add	src/buffer.c	/^int buffer_add(struct buffer *buf, const void *data, size_t datlen) {$/;"	f
+buffer_add_buffer	src/buffer.c	/^int buffer_add_buffer(struct buffer *outbuf, struct buffer *inbuf) {$/;"	f
+buffer_add_printf	src/buffer.c	/^int buffer_add_printf(struct buffer *buf, const char *fmt, ...) {$/;"	f
+buffer_add_vprintf	src/buffer.c	/^int buffer_add_vprintf(struct buffer *buf, const char *fmt, va_list ap) {$/;"	f
+buffer_align	src/buffer.c	/^static void buffer_align(struct buffer *buf) {$/;"	f	file:
+buffer_drain	src/buffer.c	/^void buffer_drain(struct buffer *buf, size_t len) {$/;"	f
+buffer_expand	src/buffer.c	/^int buffer_expand(struct buffer *buf, size_t datlen) {$/;"	f
+buffer_find	src/buffer.c	/^u_char * buffer_find(struct buffer *buffer, const u_char *what, size_t len) {$/;"	f
+buffer_free	src/buffer.c	/^void buffer_free(struct buffer *buffer) {$/;"	f
+buffer_new	src/buffer.c	/^struct buffer * buffer_new(void) {$/;"	f
+buffer_read	src/buffer.c	/^int buffer_read(struct buffer *buf, int fd, int howmuch) {$/;"	f
+buffer_readline	src/buffer.c	/^char * buffer_readline(struct buffer *buffer) {$/;"	f
+buffer_remove	src/buffer.c	/^int buffer_remove(struct buffer *buf, void *data, size_t datlen) {$/;"	f
+buffer_write	src/buffer.c	/^int buffer_write(struct buffer *buffer, int fd) {$/;"	f
+c_str	libjson/json.h	/^      const char *c_str() const$/;"	f	class:Json::StaticString
+c_str	libjson/jsoncpp.cpp	/^Value::CZString::c_str() const$/;"	f	class:Json::Value::CZString
+calc_req_len	libsphinxclient/sphinxclient.c	/^static int calc_req_len ( sphinx_client * client, const char * query, const char * index_list, const char * comment )$/;"	f	file:
+chain	libsphinxclient/sphinxclient.c	/^static void * chain ( sphinx_client * client, const void * ptr, size_t len )$/;"	f	file:
+check_config_parameter	src/main.cc	/^static int check_config_parameter() {$/;"	f	file:
+check_pid_file	src/main.cc	/^static int check_pid_file() {$/;"	f	file:
+check_request_valid	src/main.cc	/^int check_request_valid(const struct http_request *request) {$/;"	f
+childValues_	libjson/json.h	/^      ChildValues childValues_;$/;"	m	class:Json::StyledStreamWriter
+childValues_	libjson/json.h	/^      ChildValues childValues_;$/;"	m	class:Json::StyledWriter
+chunk_separator	libsphinxclient/sphinxclient.h	/^	const char *			chunk_separator;$/;"	m	struct:st_sphinx_excerpt_options
+clean	test/head.sh	/^clean()$/;"	f
+clean2	test/head.sh	/^clean2()$/;"	f
+clear	libjson/jsoncpp.cpp	/^Value::clear()$/;"	f	class:Json::Value
+client_	src/search_result.h	/^    sphinx_client * client_;$/;"	m	class:SearchResult
+close	liblog/log.h	/^    inline void close() {$/;"	f	class:CLog
+close_all_sphinx_client	src/main.cc	/^static void close_all_sphinx_client() {$/;"	f	file:
+codePointToUTF8	libjson/jsoncpp.cpp	/^codePointToUTF8(unsigned int cp)$/;"	f	namespace:Json	file:
+collectComments_	libjson/json.h	/^      bool collectComments_;$/;"	m	class:Json::Reader
+commentAfter	libjson/json.h	/^      commentAfter,             \/\/\/< a comment on the line after a value (only make sense for root value)$/;"	e	enum:Json::CommentPlacement
+commentAfterOnSameLine	libjson/json.h	/^      commentAfterOnSameLine,   \/\/\/< a comment just after a value on the same line$/;"	e	enum:Json::CommentPlacement
+commentBefore	libjson/json.h	/^      commentBefore = 0,        \/\/\/< a comment placed on the line before a value$/;"	e	enum:Json::CommentPlacement
+comment_	libjson/json.h	/^         char *comment_;$/;"	m	struct:Json::Value::CommentInfo
+commentsBefore_	libjson/json.h	/^      std::string commentsBefore_;$/;"	m	class:Json::Reader
+comments_	libjson/json.h	/^      CommentInfo *comments_;$/;"	m	class:Json::Value
+compare	libjson/jsoncpp.cpp	/^Value::compare( const Value &other ) const$/;"	f	class:Json::Value
+computeDistance	libjson/jsoncpp.cpp	/^ValueIteratorBase::computeDistance( const SelfType &other ) const$/;"	f	class:Json::ValueIteratorBase
+conn	src/main.cc	/^  struct SockConnection conn;$/;"	m	struct:ClientInfo	typeref:struct:ClientInfo::SockConnection	file:
+connecttimeout	src/sphinx_query_data.h	/^    int connecttimeout;$/;"	m	class:SphinxQueryData
+connecttimeout	src/sphinx_query_data.h	/^    string connecttimeout;$/;"	m	class:QueryData
+const_iterator	libjson/json.h	/^      typedef ValueConstIterator const_iterator;$/;"	t	class:Json::Value
+containsControlCharacter	libjson/jsoncpp.cpp	/^static bool containsControlCharacter( const char* str )$/;"	f	namespace:Json	file:
+containsNewLine	libjson/jsoncpp.cpp	/^containsNewLine( Reader::Location begin, $/;"	f	namespace:Json	file:
+convert_to_json_string	src/main.cc	/^string convert_to_json_string(const SearchResult & sr) {$/;"	f
+copy	libjson/jsoncpp.cpp	/^ValueIteratorBase::copy( const SelfType &other )$/;"	f	class:Json::ValueIteratorBase
+copy_args	libsphinxclient/sphinxclient.c	/^	sphinx_bool				copy_args;				\/\/\/< whether to create a copy of each passed argument$/;"	m	struct:st_sphinx_client	file:
+create_data	test/sphinx/create_data/create_data.sh	/^create_data() {$/;"	f
+create_sphinx_client	src/main.cc	/^static sphinx_client * create_sphinx_client() {$/;"	f	file:
+cstr_	libjson/json.h	/^         const char *cstr_;$/;"	m	class:Json::Value::CZString
+currentBatch_	libjson/jsoncpp.cpp	/^   BatchInfo *currentBatch_;$/;"	m	class:Json::BatchAllocator	file:
+currentItemIndex_	libjson/json.h	/^         unsigned int currentItemIndex_;$/;"	m	struct:Json::ValueInternalArray::IteratorState
+currentPageIndex_	libjson/json.h	/^         Value **currentPageIndex_;$/;"	m	struct:Json::ValueInternalArray::IteratorState
+currentValue	libjson/jsoncpp.cpp	/^Reader::currentValue()$/;"	f	class:Json::Reader
+current_	libjson/json.h	/^      Location current_;$/;"	m	class:Json::Reader
+current_	libjson/json.h	/^      Value::ObjectValues::iterator current_;$/;"	m	class:Json::ValueIteratorBase
+cutoff	libsphinxclient/sphinxclient.c	/^	int						cutoff;$/;"	m	struct:st_sphinx_client	file:
+daemonize	src/main.cc	/^int daemonize(int chrt, int noclose) {$/;"	f
+deal_search_handler	src/main.cc	/^bool deal_search_handler(keyvalq & http_query, string & json) {$/;"	f
+deal_statistic_handler	src/main.cc	/^string deal_statistic_handler(void) {$/;"	f
+deal_status_handler	src/main.cc	/^bool deal_status_handler(string * pjson) {$/;"	f
+debug	liblog/log.cc	/^int CLog::debug(const char *fmt, ...) {$/;"	f	class:CLog
+decodeDouble	libjson/jsoncpp.cpp	/^Reader::decodeDouble( Token &token )$/;"	f	class:Json::Reader
+decodeNumber	libjson/jsoncpp.cpp	/^Reader::decodeNumber( Token &token )$/;"	f	class:Json::Reader
+decodeString	libjson/jsoncpp.cpp	/^Reader::decodeString( Token &token )$/;"	f	class:Json::Reader
+decodeString	libjson/jsoncpp.cpp	/^Reader::decodeString( Token &token, std::string &decoded )$/;"	f	class:Json::Reader
+decodeUnicodeCodePoint	libjson/jsoncpp.cpp	/^Reader::decodeUnicodeCodePoint( Token &token, $/;"	f	class:Json::Reader
+decodeUnicodeEscapeSequence	libjson/jsoncpp.cpp	/^Reader::decodeUnicodeEscapeSequence( Token &token, $/;"	f	class:Json::Reader
+decrement	libjson/jsoncpp.cpp	/^ValueIteratorBase::decrement()$/;"	f	class:Json::ValueIteratorBase
+delet_pid_file	src/main.cc	/^void delet_pid_file() {$/;"	f
+deref	libjson/jsoncpp.cpp	/^ValueIteratorBase::deref() const$/;"	f	class:Json::ValueIteratorBase
+difference_type	libjson/json.h	/^      typedef int difference_type;$/;"	t	class:Json::ValueConstIterator
+difference_type	libjson/json.h	/^      typedef int difference_type;$/;"	t	class:Json::ValueIterator
+difference_type	libjson/json.h	/^      typedef int difference_type;$/;"	t	class:Json::ValueIteratorBase
+disconnect_conn	src/main.cc	/^void disconnect_conn(struct SockConnection *conn) {$/;"	f
+docids	libsphinxclient/sphinxclient.c	/^	const sphinx_uint64_t *	docids;$/;"	m	struct:st_override	file:
+docs	libsphinxclient/sphinxclient.h	/^	int						docs;$/;"	m	struct:st_sphinx_wordinfo
+document_	libjson/json.h	/^      std::ostream* document_;$/;"	m	class:Json::StyledStreamWriter
+document_	libjson/json.h	/^      std::string document_;$/;"	m	class:Json::FastWriter
+document_	libjson/json.h	/^      std::string document_;$/;"	m	class:Json::Reader
+document_	libjson/json.h	/^      std::string document_;$/;"	m	class:Json::StyledWriter
+duplicate	libjson/json.h	/^            duplicate,$/;"	e	enum:Json::Value::CZString::DuplicationPolicy
+duplicateOnCopy	libjson/json.h	/^            duplicateOnCopy$/;"	e	enum:Json::Value::CZString::DuplicationPolicy
+duplicateStringValue	libjson/jsoncpp.cpp	/^duplicateStringValue( const char *value, $/;"	f	namespace:Json	file:
+empty	libjson/jsoncpp.cpp	/^Value::empty() const$/;"	f	class:Json::Value
+enableYAMLCompatibility	libjson/jsoncpp.cpp	/^FastWriter::enableYAMLCompatibility()$/;"	f	class:Json::FastWriter
+end	libjson/jsoncpp.cpp	/^Value::end() const$/;"	f	class:Json::Value
+end	libjson/jsoncpp.cpp	/^Value::end()$/;"	f	class:Json::Value
+end_	libjson/json.h	/^         Location end_;$/;"	m	class:Json::Reader::Token
+end_	libjson/json.h	/^      Location end_;$/;"	m	class:Json::Reader
+end_	libjson/jsoncpp.cpp	/^      AllocatedType *end_;$/;"	m	struct:Json::BatchAllocator::BatchInfo	file:
+error	liblog/log.cc	/^int CLog::error(const char *fmt, ...) {$/;"	f	class:CLog
+error	libsphinxclient/sphinxclient.c	/^	const char *			error;					\/\/\/< last error$/;"	m	struct:st_sphinx_client	file:
+error	libsphinxclient/sphinxclient.h	/^	const char *			error;$/;"	m	struct:st_sphinx_result
+errors_	libjson/json.h	/^      Errors errors_;$/;"	m	class:Json::Reader
+exact_phrase	libsphinxclient/sphinxclient.h	/^	sphinx_bool				exact_phrase;$/;"	m	struct:st_sphinx_excerpt_options
+exclude	libsphinxclient/sphinxclient.c	/^	int						exclude;$/;"	m	struct:st_filter	file:
+exclude	src/sphinx_query_data.h	/^      bool exclude;$/;"	m	struct:SphinxQueryData::Filter
+expectToken	libjson/jsoncpp.cpp	/^Reader::expectToken( TokenType type, Token &token, const char *message )$/;"	f	class:Json::Reader
+extra_	libjson/json.h	/^         Location extra_;$/;"	m	class:Json::Reader::ErrorInfo
+fast_close	src/main.cc	/^inline static void fast_close(int fd) {$/;"	f	file:
+fd	src/main.cc	/^  int fd;$/;"	m	struct:SockConnection	file:
+features_	libjson/json.h	/^      Features features_;$/;"	m	class:Json::Reader
+field_weights_names	libsphinxclient/sphinxclient.c	/^	const char **			field_weights_names;$/;"	m	struct:st_sphinx_client	file:
+field_weights_values	libsphinxclient/sphinxclient.c	/^	const int *				field_weights_values;$/;"	m	struct:st_sphinx_client	file:
+fields	libsphinxclient/sphinxclient.h	/^	char **					fields;$/;"	m	struct:st_sphinx_result
+fieldweights	src/sphinx_query_data.h	/^    string fieldweights;$/;"	m	class:QueryData
+fieldweights_fields	src/sphinx_query_data.h	/^    const char ** fieldweights_fields;$/;"	m	class:SphinxQueryData
+fieldweights_num	src/sphinx_query_data.h	/^    int fieldweights_num;$/;"	m	class:SphinxQueryData
+fieldweights_weights	src/sphinx_query_data.h	/^    int * fieldweights_weights;$/;"	m	class:SphinxQueryData
+filename	src/config.h	/^      std::string filename;$/;"	m	struct:Config::File_not_found
+filter_type	libsphinxclient/sphinxclient.c	/^	int						filter_type;$/;"	m	struct:st_filter	file:
+filters	libsphinxclient/sphinxclient.c	/^	struct st_filter *		filters;$/;"	m	struct:st_sphinx_client	typeref:struct:st_sphinx_client::st_filter	file:
+filters	src/sphinx_query_data.h	/^    list<Filter> filters;$/;"	m	class:SphinxQueryData
+filters	src/sphinx_query_data.h	/^    list<string> filters;$/;"	m	class:QueryData
+flagAvailable	libjson/json.h	/^         flagAvailable = 0,$/;"	e	enum:Json::ValueInternalLink::InternalFlags
+flagUsed	libjson/json.h	/^         flagUsed = 1$/;"	e	enum:Json::ValueInternalLink::InternalFlags
+float_max	src/sphinx_query_data.h	/^        float float_max;$/;"	m	union:SphinxQueryData::Filter::__anon2
+float_min	src/sphinx_query_data.h	/^        float float_min;$/;"	m	union:SphinxQueryData::Filter::__anon1
+float_value	libsphinxclient/sphinxclient.c	/^	float					float_value;$/;"	m	union:un_attr_value	file:
+fmax	libsphinxclient/sphinxclient.c	/^	float					fmax;$/;"	m	struct:st_filter	file:
+fmin	libsphinxclient/sphinxclient.c	/^	float					fmin;$/;"	m	struct:st_filter	file:
+freeHead_	libjson/jsoncpp.cpp	/^   AllocatedType *freeHead_;$/;"	m	class:Json::BatchAllocator	file:
+g_running	src/main.cc	/^static bool g_running = false;$/;"	v	file:
+g_sphinx_client_map	src/main.cc	/^static map<pthread_t, sphinx_client *> g_sphinx_client_map;$/;"	v	file:
+g_sphinx_client_mutex	src/main.cc	/^static pthread_mutex_t g_sphinx_client_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+geoanchor_attr_lat	libsphinxclient/sphinxclient.c	/^	const char *			geoanchor_attr_lat;$/;"	m	struct:st_sphinx_client	file:
+geoanchor_attr_long	libsphinxclient/sphinxclient.c	/^	const char *			geoanchor_attr_long;$/;"	m	struct:st_sphinx_client	file:
+geoanchor_lat	libsphinxclient/sphinxclient.c	/^	float					geoanchor_lat;$/;"	m	struct:st_sphinx_client	file:
+geoanchor_long	libsphinxclient/sphinxclient.c	/^	float					geoanchor_long;$/;"	m	struct:st_sphinx_client	file:
+get	libjson/jsoncpp.cpp	/^Value::get( ArrayIndex index, $/;"	f	class:Json::Value
+get	libjson/jsoncpp.cpp	/^Value::get( const CppTL::ConstString &key,$/;"	f	class:Json::Value
+get	libjson/jsoncpp.cpp	/^Value::get( const char *key, $/;"	f	class:Json::Value
+get	libjson/jsoncpp.cpp	/^Value::get( const std::string &key,$/;"	f	class:Json::Value
+getAttrFloatValue	src/search_result.h	/^    float getAttrFloatValue(unsigned int idx, unsigned int attrIdx) const {$/;"	f	class:SearchResult
+getAttrIntValue	src/search_result.h	/^    unsigned int getAttrIntValue(unsigned int idx, unsigned int attrIdx) const {$/;"	f	class:SearchResult
+getAttrMultiIntValue	src/search_result.h	/^    unsigned int * getAttrMultiIntValue(unsigned int idx, unsigned int attrIdx)$/;"	f	class:SearchResult
+getAttrName	src/search_result.h	/^    const char * getAttrName(unsigned int attrIdx) const {$/;"	f	class:SearchResult
+getAttrNumb	src/search_result.h	/^    unsigned int getAttrNumb() const {$/;"	f	class:SearchResult
+getAttrType	src/search_result.h	/^    unsigned int getAttrType(unsigned int attrIdx) const {$/;"	f	class:SearchResult
+getComment	libjson/jsoncpp.cpp	/^Value::getComment( CommentPlacement placement ) const$/;"	f	class:Json::Value
+getDocs	src/search_result.h	/^    unsigned int getDocs(unsigned int wordIdx) const {$/;"	f	class:SearchResult
+getError	src/search_result.h	/^    const char * getError() const {$/;"	f	class:SearchResult
+getFormatedErrorMessages	libjson/jsoncpp.cpp	/^Reader::getFormatedErrorMessages() const$/;"	f	class:Json::Reader
+getFormattedErrorMessages	libjson/jsoncpp.cpp	/^Reader::getFormattedErrorMessages() const$/;"	f	class:Json::Reader
+getHits	src/search_result.h	/^    unsigned int getHits(unsigned int wordIdx) const {$/;"	f	class:SearchResult
+getId	src/search_result.h	/^    sphinx_uint64_t getId(unsigned int idx) const {$/;"	f	class:SearchResult
+getLocationLineAndColumn	libjson/jsoncpp.cpp	/^Reader::getLocationLineAndColumn( Location location ) const$/;"	f	class:Json::Reader
+getLocationLineAndColumn	libjson/jsoncpp.cpp	/^Reader::getLocationLineAndColumn( Location location,$/;"	f	class:Json::Reader
+getMatchNumb	src/search_result.h	/^    unsigned int getMatchNumb() const {$/;"	f	class:SearchResult
+getMemberNames	libjson/jsoncpp.cpp	/^Value::getMemberNames() const$/;"	f	class:Json::Value
+getNextChar	libjson/jsoncpp.cpp	/^Reader::getNextChar()$/;"	f	class:Json::Reader
+getStatus	src/search_result.h	/^    int getStatus() const {$/;"	f	class:SearchResult
+getTime	src/search_result.h	/^    unsigned int getTime() const {$/;"	f	class:SearchResult
+getTotal	src/search_result.h	/^    unsigned int getTotal() const {$/;"	f	class:SearchResult
+getTotalFound	src/search_result.h	/^    unsigned int getTotalFound() const {$/;"	f	class:SearchResult
+getWarning	src/search_result.h	/^    const char * getWarning() const {$/;"	f	class:SearchResult
+getWord	src/search_result.h	/^    const char * getWord(unsigned int wordIdx) const {$/;"	f	class:SearchResult
+getWordNumb	src/search_result.h	/^    unsigned int getWordNumb() const {$/;"	f	class:SearchResult
+get_client	src/search_result.h	/^    sphinx_client * get_client( ) { return this->client_;}$/;"	f	class:SearchResult
+get_error_msg	liblog/log.h	/^    const char * get_error_msg() const {$/;"	f	class:CLog
+get_file_size	src/main.cc	/^static int64_t get_file_size(FILE *fp) {$/;"	f	file:
+get_sphinx_client	src/main.cc	/^static sphinx_client * get_sphinx_client(pthread_t tid) {$/;"	f	file:
+get_thread_sphinx_client	src/main.cc	/^static sphinx_client * get_thread_sphinx_client() {$/;"	f	file:
+gp_log	src/main.cc	/^CLog * gp_log = NULL;$/;"	v
+gp_parameter	src/main.cc	/^static GlobalParameter * gp_parameter = NULL;$/;"	v	file:
+gp_statistic	src/main.cc	/^static Statistic * gp_statistic = NULL;$/;"	v	file:
+gp_thread_pool	src/main.cc	/^static CThreadPool * gp_thread_pool = NULL;$/;"	v	file:
+group_by	libsphinxclient/sphinxclient.c	/^	const char *			group_by;$/;"	m	struct:st_sphinx_client	file:
+group_distinct	libsphinxclient/sphinxclient.c	/^	const char *			group_distinct;$/;"	m	struct:st_sphinx_client	file:
+group_func	libsphinxclient/sphinxclient.c	/^	int						group_func;$/;"	m	struct:st_sphinx_client	file:
+group_sort	libsphinxclient/sphinxclient.c	/^	const char *			group_sort;$/;"	m	struct:st_sphinx_client	file:
+groupby	src/sphinx_query_data.h	/^    string groupby;$/;"	m	class:QueryData
+groupby	src/sphinx_query_data.h	/^    string groupby;$/;"	m	class:SphinxQueryData
+groupby_attr	src/sphinx_query_data.h	/^    string groupby_attr;  \/\/ 用于决定是否设定了$/;"	m	class:SphinxQueryData
+groupby_func	src/sphinx_query_data.h	/^    int groupby_func;$/;"	m	class:SphinxQueryData
+groupby_sort	src/sphinx_query_data.h	/^    string groupby_sort;$/;"	m	class:SphinxQueryData
+groupdistinct	src/sphinx_query_data.h	/^    string groupdistinct;$/;"	m	class:QueryData
+groupdistinct	src/sphinx_query_data.h	/^    string groupdistinct;$/;"	m	class:SphinxQueryData
+hasComment	libjson/jsoncpp.cpp	/^Value::hasComment( CommentPlacement placement ) const$/;"	f	class:Json::Value
+hasCommentForValue	libjson/jsoncpp.cpp	/^StyledStreamWriter::hasCommentForValue( const Value &value )$/;"	f	class:Json::StyledStreamWriter
+hasCommentForValue	libjson/jsoncpp.cpp	/^StyledWriter::hasCommentForValue( const Value &value )$/;"	f	class:Json::StyledWriter
+head_alloc	libsphinxclient/sphinxclient.c	/^	void *					head_alloc;				\/\/\/< head of client-owned allocations list$/;"	m	struct:st_sphinx_client	file:
+headers	src/http.h	/^    struct http_header_head *headers;$/;"	m	struct:http_request	typeref:struct:http_request::http_header_head
+hits	libsphinxclient/sphinxclient.h	/^	int						hits;$/;"	m	struct:st_sphinx_wordinfo
+host	libsphinxclient/sphinxclient.c	/^	const char *			host;$/;"	m	struct:st_sphinx_client	file:
+host	src/main.cc	/^    string host;$/;"	m	class:GlobalParameter	file:
+http_add_header	src/http.c	/^int http_add_header(struct http_header_head *headers, const char *name,$/;"	f
+http_add_header_line	src/http.c	/^int http_add_header_line( struct http_header_head *header_queue, char *line ) {$/;"	f
+http_clear_headers	src/http.c	/^void http_clear_headers(keyvalq *headers) {$/;"	f
+http_decode_uri	src/http.c	/^static char * http_decode_uri(const char *uri, int decode_plus,$/;"	f	file:
+http_encode_uri	src/http.c	/^char * http_encode_uri(const char *uri, size_t len, int space_as_plus) {$/;"	f
+http_get_header_value	src/http.c	/^const char *http_get_header_value( struct http_header_head *header_queue,$/;"	f
+http_handler	src/main.cc	/^void http_handler(struct ClientInfo * socket_client, bool * keep_alive) {$/;"	f
+http_header	src/http.h	/^  struct http_header {$/;"	s
+http_header_free	src/http.c	/^void http_header_free(struct http_header_head *header_queue) {$/;"	f
+http_header_new	src/http.c	/^struct http_header_head *http_header_new() {$/;"	f
+http_parse_query_str	src/http.c	/^int http_parse_query_str(const char *str, keyvalq *headers) {$/;"	f
+http_pro_version	src/http.h	/^  struct http_pro_version {$/;"	s
+http_request	src/http.h	/^  struct http_request {$/;"	s
+http_request_free	src/http.c	/^void http_request_free(struct http_request *request) {$/;"	f
+http_request_parse	src/http.c	/^struct http_request *http_request_parse( struct buffer *buf ) {$/;"	f
+idrange	src/sphinx_query_data.h	/^    string idrange;$/;"	m	class:QueryData
+idrange_max	src/sphinx_query_data.h	/^    int64_t idrange_max;$/;"	m	class:SphinxQueryData
+idrange_min	src/sphinx_query_data.h	/^    int64_t idrange_min;$/;"	m	class:SphinxQueryData
+in	libjson/jsoncpp.cpp	/^in( Reader::Char c, Reader::Char c1, Reader::Char c2, Reader::Char c3, Reader::Char c4 )$/;"	f	namespace:Json	file:
+in	libjson/jsoncpp.cpp	/^in( Reader::Char c, Reader::Char c1, Reader::Char c2, Reader::Char c3, Reader::Char c4, Reader::Char c5 )$/;"	f	namespace:Json	file:
+inbuf	src/main.cc	/^  struct buffer *inbuf;$/;"	m	struct:SockConnection	typeref:struct:SockConnection::buffer	file:
+increment	libjson/jsoncpp.cpp	/^ValueIteratorBase::increment()$/;"	f	class:Json::ValueIteratorBase
+indent	libjson/jsoncpp.cpp	/^StyledStreamWriter::indent()$/;"	f	class:Json::StyledStreamWriter
+indent	libjson/jsoncpp.cpp	/^StyledWriter::indent()$/;"	f	class:Json::StyledWriter
+indentSize_	libjson/json.h	/^      int indentSize_;$/;"	m	class:Json::StyledWriter
+indentString_	libjson/json.h	/^      std::string indentString_;$/;"	m	class:Json::StyledStreamWriter
+indentString_	libjson/json.h	/^      std::string indentString_;$/;"	m	class:Json::StyledWriter
+indentation_	libjson/json.h	/^      std::string indentation_;$/;"	m	class:Json::StyledStreamWriter
+index	libjson/jsoncpp.cpp	/^Value::CZString::index() const$/;"	f	class:Json::Value::CZString
+index	libjson/jsoncpp.cpp	/^ValueIteratorBase::index() const$/;"	f	class:Json::ValueIteratorBase
+index	src/sphinx_query_data.h	/^    string index;$/;"	m	class:QueryData
+index	src/sphinx_query_data.h	/^    string index;$/;"	m	class:SphinxQueryData
+index_	libjson/json.h	/^         ArrayIndex index_;$/;"	m	class:Json::Value::CZString
+index_	libjson/json.h	/^      ArrayIndex index_;$/;"	m	class:Json::PathArgument
+index_weights_names	libsphinxclient/sphinxclient.c	/^	const char **			index_weights_names;$/;"	m	struct:st_sphinx_client	file:
+index_weights_values	libsphinxclient/sphinxclient.c	/^	const int *				index_weights_values;$/;"	m	struct:st_sphinx_client	file:
+info	liblog/log.cc	/^int CLog::info(const char *fmt, ...) {$/;"	f	class:CLog
+info	test/test.sh	/^info()$/;"	f
+info	test/test_fail.sh	/^info()$/;"	f
+init_	libthreadpool/CThread.cc	/^void CThreadPool::init_(int min, int max) {$/;"	f	class:CThreadPool
+intValue	libjson/json.h	/^      intValue,      \/\/\/< signed integer value$/;"	e	enum:Json::ValueType
+int_	libjson/json.h	/^         LargestInt int_;$/;"	m	union:Json::Value::ValueHolder
+int_max	src/sphinx_query_data.h	/^        int int_max;$/;"	m	union:SphinxQueryData::Filter::__anon2
+int_min	src/sphinx_query_data.h	/^        int int_min;$/;"	m	union:SphinxQueryData::Filter::__anon1
+int_value	libsphinxclient/sphinxclient.c	/^	sphinx_int64_t			int_value;$/;"	m	union:un_attr_value	file:
+invalidPath	libjson/jsoncpp.cpp	/^Path::invalidPath( const std::string &path, $/;"	f	class:Json::Path
+ip	src/main.cc	/^  char ip[50];$/;"	m	struct:ClientInfo	file:
+isArray	libjson/jsoncpp.cpp	/^Value::isArray() const$/;"	f	class:Json::Value
+isArray_	libjson/json.h	/^      bool isArray_;$/;"	m	class:Json::ValueIteratorBase
+isBool	libjson/jsoncpp.cpp	/^Value::isBool() const$/;"	f	class:Json::Value
+isControlCharacter	libjson/jsoncpp.cpp	/^isControlCharacter(char ch)$/;"	f	namespace:Json	file:
+isConvertibleTo	libjson/jsoncpp.cpp	/^Value::isConvertibleTo( ValueType other ) const$/;"	f	class:Json::Value
+isDouble	libjson/jsoncpp.cpp	/^Value::isDouble() const$/;"	f	class:Json::Value
+isEqual	libjson/jsoncpp.cpp	/^ValueIteratorBase::isEqual( const SelfType &other ) const$/;"	f	class:Json::ValueIteratorBase
+isInt	libjson/jsoncpp.cpp	/^Value::isInt() const$/;"	f	class:Json::Value
+isIntegral	libjson/jsoncpp.cpp	/^Value::isIntegral() const$/;"	f	class:Json::Value
+isItemAvailable	libjson/json.h	/^      inline bool isItemAvailable() const$/;"	f	class:Json::Value
+isMember	libjson/jsoncpp.cpp	/^Value::isMember( const CppTL::ConstString &key ) const$/;"	f	class:Json::Value
+isMember	libjson/jsoncpp.cpp	/^Value::isMember( const char *key ) const$/;"	f	class:Json::Value
+isMember	libjson/jsoncpp.cpp	/^Value::isMember( const std::string &key ) const$/;"	f	class:Json::Value
+isMemberNameStatic	libjson/json.h	/^      inline bool isMemberNameStatic() const$/;"	f	class:Json::Value
+isMultineArray	libjson/jsoncpp.cpp	/^StyledStreamWriter::isMultineArray( const Value &value )$/;"	f	class:Json::StyledStreamWriter
+isMultineArray	libjson/jsoncpp.cpp	/^StyledWriter::isMultineArray( const Value &value )$/;"	f	class:Json::StyledWriter
+isNull	libjson/jsoncpp.cpp	/^Value::isNull() const$/;"	f	class:Json::Value
+isNull_	libjson/json.h	/^      bool isNull_;$/;"	m	class:Json::ValueIteratorBase
+isNumeric	libjson/jsoncpp.cpp	/^Value::isNumeric() const$/;"	f	class:Json::Value
+isObject	libjson/jsoncpp.cpp	/^Value::isObject() const$/;"	f	class:Json::Value
+isStaticString	libjson/jsoncpp.cpp	/^Value::CZString::isStaticString() const$/;"	f	class:Json::Value::CZString
+isString	libjson/jsoncpp.cpp	/^Value::isString() const$/;"	f	class:Json::Value
+isUInt	libjson/jsoncpp.cpp	/^Value::isUInt() const$/;"	f	class:Json::Value
+isValidIndex	libjson/jsoncpp.cpp	/^Value::isValidIndex( ArrayIndex index ) const$/;"	f	class:Json::Value
+is_daemon	src/main.cc	/^    bool is_daemon;$/;"	m	class:GlobalParameter	file:
+is_locked	liblog/lock.h	/^    bool is_locked;$/;"	m	class:CGuard
+itemCount_	libjson/json.h	/^      BucketIndex itemCount_;$/;"	m	class:Json::ValueInternalMap
+itemIndex_	libjson/json.h	/^         BucketIndex itemIndex_;$/;"	m	struct:Json::ValueInternalMap::IteratorState
+itemPerLink	libjson/json.h	/^      enum { itemPerLink = 6 };  \/\/ sizeof(ValueInternalLink) = 128 on 32 bits architecture.$/;"	e	enum:Json::ValueInternalLink::__anon14
+itemsPerPage	libjson/json.h	/^      enum { itemsPerPage = 8 };    \/\/ should be a power of 2 for fast divide and modulo.$/;"	e	enum:Json::ValueInternalArray::__anon15
+items_	libjson/json.h	/^      Value items_[itemPerLink];$/;"	m	class:Json::ValueInternalLink
+iterator	libjson/json.h	/^      typedef ValueIterator iterator;$/;"	t	class:Json::Value
+iterator_	libjson/json.h	/^      } iterator_;$/;"	m	class:Json::ValueIteratorBase	typeref:union:Json::ValueIteratorBase::__anon16
+kDEF_MATCHMODE	src/sphinx_query_data.h	/^    static const int kDEF_MATCHMODE = SPH_MATCH_EXTENDED2;$/;"	m	class:SphinxQueryData
+kDEF_RANKINGMODE	src/sphinx_query_data.h	/^    static const int kDEF_RANKINGMODE = SPH_RANK_PROXIMITY_BM25;$/;"	m	class:SphinxQueryData
+kDEF_SORTMODE	src/sphinx_query_data.h	/^    static const int kDEF_SORTMODE = SPH_SORT_RELEVANCE;$/;"	m	class:SphinxQueryData
+kFloatRange	src/sphinx_query_data.h	/^        kValue, kIntRange, kFloatRange$/;"	e	enum:SphinxQueryData::Filter::Type
+kIntRange	src/sphinx_query_data.h	/^        kValue, kIntRange, kFloatRange$/;"	e	enum:SphinxQueryData::Filter::Type
+kValue	src/sphinx_query_data.h	/^        kValue, kIntRange, kFloatRange$/;"	e	enum:SphinxQueryData::Filter::Type
+key	libjson/jsoncpp.cpp	/^ValueIteratorBase::key() const$/;"	f	class:Json::ValueIteratorBase
+key	src/config.h	/^      std::string key;$/;"	m	struct:Config::Key_not_found
+key_	libjson/json.h	/^      std::string key_;$/;"	m	class:Json::PathArgument
+keys_	libjson/json.h	/^      char *keys_[itemPerLink];$/;"	m	class:Json::ValueInternalLink
+keyval	src/http.h	/^  typedef struct http_header keyval;$/;"	t	typeref:struct:http_header
+keyvalq	src/http.h	/^  typedef struct http_header_head keyvalq;$/;"	t	typeref:struct:http_header_head
+kindIndex	libjson/json.h	/^         kindIndex,$/;"	e	enum:Json::PathArgument::Kind
+kindKey	libjson/json.h	/^         kindKey$/;"	e	enum:Json::PathArgument::Kind
+kindNone	libjson/json.h	/^         kindNone = 0,$/;"	e	enum:Json::PathArgument::Kind
+kind_	libjson/json.h	/^      Kind kind_;$/;"	m	class:Json::PathArgument
+lastValueEnd_	libjson/json.h	/^      Location lastValueEnd_;$/;"	m	class:Json::Reader
+lastValue_	libjson/json.h	/^      Value *lastValue_;$/;"	m	class:Json::Reader
+len	src/buffer.h	/^    size_t len;$/;"	m	struct:buffer
+limit	libsphinxclient/sphinxclient.c	/^	int						limit;$/;"	m	struct:st_sphinx_client	file:
+limit	libsphinxclient/sphinxclient.h	/^	int						limit;$/;"	m	struct:st_sphinx_excerpt_options
+link_	libjson/json.h	/^         ValueInternalLink *link_;$/;"	m	struct:Json::ValueInternalMap::IteratorState
+load_config_file	src/main.cc	/^bool load_config_file() {$/;"	f
+local_error_buf	libsphinxclient/sphinxclient.c	/^	char					local_error_buf[256];	\/\/\/< buffer to store 'local' error messages (eg. connect() error)$/;"	m	struct:st_sphinx_client	file:
+log_level	src/main.cc	/^    string log_level;$/;"	m	class:GlobalParameter	file:
+log_path_name	src/main.cc	/^    string log_path_name;$/;"	m	class:GlobalParameter	file:
+m_Comment	src/config.h	/^    std::string m_Comment;$/;"	m	class:Config
+m_Contents	src/config.h	/^    std::map<std::string, std::string> m_Contents;$/;"	m	class:Config
+m_Delimiter	src/config.h	/^    std::string m_Delimiter;$/;"	m	class:Config
+m_after_run_task_cb	libthreadpool/CThread.h	/^    int (* m_after_run_task_cb)(pthread_t);    \/\/ 线程运行任务前的回调函数$/;"	m	class:CThreadPool
+m_before_run_task_cb	libthreadpool/CThread.h	/^    int (* m_before_run_task_cb)(pthread_t);   \/\/ 线程运行任务前的回调函数$/;"	m	class:CThreadPool
+m_max	libthreadpool/CThread.h	/^    int               m_max;              \/\/ 线程池中启动的线程数$/;"	m	class:CThreadPool
+m_max_task	libthreadpool/CThread.h	/^    int               m_max_task;         \/\/ 任务列表中等待运行的任务的最大个数$/;"	m	class:CThreadPool
+m_min	libthreadpool/CThread.h	/^    int               m_min;              \/\/ 线程池中启动的线程数$/;"	m	class:CThreadPool
+m_mutex	liblog/lock.h	/^    pthread_mutex_t m_mutex;$/;"	m	class:CLock
+m_pLock	liblog/lock.h	/^    CLock* m_pLock;$/;"	m	class:CGuard
+m_pthreadCond	libthreadpool/CThread.h	/^    pthread_cond_t    m_pthreadCond;      \/\/ 线程同步的条件变量$/;"	m	class:CThreadPool
+m_pthreadMutex	libthreadpool/CThread.h	/^    pthread_mutex_t   m_pthreadMutex;     \/\/ 线程同步锁$/;"	m	class:CThreadPool
+m_ptrData	libthreadpool/CThread.h	/^    void* m_ptrData;       \/\/ 要执行的任务的具体数据$/;"	m	class:CTask
+m_strTaskName	libthreadpool/CThread.h	/^    string m_strTaskName;  \/\/ 任务的名称$/;"	m	class:CTask
+m_thread_exit_cb	libthreadpool/CThread.h	/^    int (* m_thread_exit_cb)(pthread_t);  \/\/ 线程退出的回调函数$/;"	m	class:CThreadPool
+m_thread_num	libthreadpool/CThread.h	/^    int               m_thread_num;       \/\/ 线程池中启动的线程数$/;"	m	class:CThreadPool
+m_vecBusyThread	libthreadpool/CThread.h	/^    vector<pthread_t> m_vecBusyThread;    \/\/ 当前正在执行的线程集合$/;"	m	class:CThreadPool
+m_vecIdleThread	libthreadpool/CThread.h	/^    vector<pthread_t> m_vecIdleThread;    \/\/ 当前空闲的线程集合$/;"	m	class:CThreadPool
+m_vecTaskList	libthreadpool/CThread.h	/^    vector<CTask*>    m_vecTaskList;      \/\/ 任务列表$/;"	m	class:CThreadPool
+main	cpplint/cpplint.py	/^def main():$/;"	f
+main	src/main.cc	/^int main(int argc, char **argv) {$/;"	f
+major	src/http.h	/^    int major;$/;"	m	struct:http_pro_version
+make	libjson/jsoncpp.cpp	/^Path::make( Value &root ) const$/;"	f	class:Json::Path
+makePath	libjson/jsoncpp.cpp	/^Path::makePath( const std::string &path,$/;"	f	class:Json::Path
+make_inner_error_json_string	src/main.cc	/^string make_inner_error_json_string(string e) {$/;"	f
+map_	libjson/json.h	/^         ObjectValues *map_;$/;"	m	union:Json::Value::ValueHolder
+map_	libjson/json.h	/^         ValueInternalMap *map_;$/;"	m	struct:Json::ValueInternalMap::IteratorState
+map_	libjson/json.h	/^         ValueInternalMap *map_;$/;"	m	union:Json::Value::ValueHolder
+map_	libjson/json.h	/^         ValueInternalMap::IteratorState map_;$/;"	m	union:Json::ValueIteratorBase::__anon16
+mapci	src/config.h	/^    typedef std::map<std::string, std::string>::const_iterator mapci;$/;"	t	class:Config
+mapi	src/config.h	/^    typedef std::map<std::string, std::string>::iterator mapi;$/;"	t	class:Config
+match	libjson/jsoncpp.cpp	/^Reader::match( Location pattern, $/;"	f	class:Json::Reader
+matchmode	src/sphinx_query_data.h	/^    int matchmode;$/;"	m	class:SphinxQueryData
+matchmode	src/sphinx_query_data.h	/^    string matchmode;$/;"	m	class:QueryData
+maxInt	libjson/json.h	/^      static const Int maxInt;$/;"	m	class:Json::Value
+maxInt	libjson/jsoncpp.cpp	/^const Int Value::maxInt = Int( UInt(-1)\/2 );$/;"	m	class:Json::Value	file:
+maxInt64	libjson/json.h	/^      static const Int64 maxInt64;$/;"	m	class:Json::Value
+maxInt64	libjson/jsoncpp.cpp	/^const Int64 Value::maxInt64 = Int64( UInt64(-1)\/2 );$/;"	m	class:Json::Value	file:
+maxLargestInt	libjson/json.h	/^      static const LargestInt maxLargestInt;$/;"	m	class:Json::Value
+maxLargestInt	libjson/jsoncpp.cpp	/^const LargestInt Value::maxLargestInt = LargestInt( LargestUInt(-1)\/2 );$/;"	m	class:Json::Value	file:
+maxLargestUInt	libjson/json.h	/^      static const LargestUInt maxLargestUInt;$/;"	m	class:Json::Value
+maxLargestUInt	libjson/jsoncpp.cpp	/^const LargestUInt Value::maxLargestUInt = LargestUInt(-1);$/;"	m	class:Json::Value	file:
+maxUInt	libjson/json.h	/^      static const UInt maxUInt;$/;"	m	class:Json::Value
+maxUInt	libjson/jsoncpp.cpp	/^const UInt Value::maxUInt = UInt(-1);$/;"	m	class:Json::Value	file:
+maxUInt64	libjson/json.h	/^      static const UInt64 maxUInt64;$/;"	m	class:Json::Value
+maxUInt64	libjson/jsoncpp.cpp	/^const UInt64 Value::maxUInt64 = UInt64(-1);$/;"	m	class:Json::Value	file:
+max_filters	libsphinxclient/sphinxclient.c	/^	int						max_filters;$/;"	m	struct:st_sphinx_client	file:
+max_matches	libsphinxclient/sphinxclient.c	/^	int						max_matches;$/;"	m	struct:st_sphinx_client	file:
+max_overrides	libsphinxclient/sphinxclient.c	/^	int						max_overrides;$/;"	m	struct:st_sphinx_client	file:
+max_query_time	libsphinxclient/sphinxclient.c	/^	int						max_query_time;$/;"	m	struct:st_sphinx_client	file:
+maxid	libsphinxclient/sphinxclient.c	/^	sphinx_uint64_t			maxid;$/;"	m	struct:st_sphinx_client	file:
+maxquerytime	src/sphinx_query_data.h	/^    int maxquerytime;$/;"	m	class:SphinxQueryData
+maxquerytime	src/sphinx_query_data.h	/^    string maxquerytime;$/;"	m	class:QueryData
+memberName	libjson/jsoncpp.cpp	/^ValueIteratorBase::memberName() const$/;"	f	class:Json::ValueIteratorBase
+message_	libjson/json.h	/^         std::string message_;$/;"	m	class:Json::Reader::ErrorInfo
+minInt	libjson/json.h	/^      static const Int minInt;$/;"	m	class:Json::Value
+minInt	libjson/jsoncpp.cpp	/^const Int Value::minInt = Int( ~(UInt(-1)\/2) );$/;"	m	class:Json::Value	file:
+minInt64	libjson/json.h	/^      static const Int64 minInt64;$/;"	m	class:Json::Value
+minInt64	libjson/jsoncpp.cpp	/^const Int64 Value::minInt64 = Int64( ~(UInt64(-1)\/2) );$/;"	m	class:Json::Value	file:
+minLargestInt	libjson/json.h	/^      static const LargestInt minLargestInt;$/;"	m	class:Json::Value
+minLargestInt	libjson/jsoncpp.cpp	/^const LargestInt Value::minLargestInt = LargestInt( ~(LargestUInt(-1)\/2) );$/;"	m	class:Json::Value	file:
+minid	libsphinxclient/sphinxclient.c	/^	sphinx_uint64_t			minid;$/;"	m	struct:st_sphinx_client	file:
+minor	src/http.h	/^    int minor;$/;"	m	struct:http_pro_version
+misalign	src/buffer.h	/^    size_t misalign;  \/\/ 对不齐$/;"	m	struct:buffer
+mode	libsphinxclient/sphinxclient.c	/^	int						mode;$/;"	m	struct:st_sphinx_client	file:
+mva_value	libsphinxclient/sphinxclient.c	/^	unsigned int *			mva_value;$/;"	m	union:un_attr_value	file:
+name	src/http.h	/^    char *name;$/;"	m	struct:http_header
+net_connect_ex	libsphinxclient/sphinxclient.c	/^static int net_connect_ex ( sphinx_client * client )$/;"	f	file:
+net_connect_get	libsphinxclient/sphinxclient.c	/^static int net_connect_get ( sphinx_client * client )$/;"	f	file:
+net_create_inet_sock	libsphinxclient/sphinxclient.c	/^static int net_create_inet_sock ( sphinx_client * client )$/;"	f	file:
+net_get_response	libsphinxclient/sphinxclient.c	/^static void net_get_response ( int fd, sphinx_client * client )$/;"	f	file:
+net_read	libsphinxclient/sphinxclient.c	/^static sphinx_bool net_read ( int fd, char * buf, int len, sphinx_client * client )$/;"	f	file:
+net_simple_query	libsphinxclient/sphinxclient.c	/^static sphinx_bool net_simple_query ( sphinx_client * client, char * buf, int req_len )$/;"	f	file:
+net_sock_eof	libsphinxclient/sphinxclient.c	/^static sphinx_bool net_sock_eof ( int sock )$/;"	f	file:
+net_write	libsphinxclient/sphinxclient.c	/^static sphinx_bool net_write ( int fd, const char * bytes, int len, sphinx_client * client )$/;"	f	file:
+next	libsphinxclient/sphinxclient.c	/^	struct st_memblock *	next;$/;"	m	struct:st_memblock	typeref:struct:st_memblock::st_memblock	file:
+next	src/http.h	/^    TAILQ_ENTRY(http_header) next;$/;"	m	struct:http_header
+next_	libjson/json.h	/^      ValueInternalLink *next_;$/;"	m	class:Json::ValueInternalLink
+next_	libjson/jsoncpp.cpp	/^      BatchInfo *next_;$/;"	m	struct:Json::BatchAllocator::BatchInfo	file:
+noDuplication	libjson/json.h	/^            noDuplication = 0,$/;"	e	enum:Json::Value::CZString::DuplicationPolicy
+nodes_	libjson/json.h	/^      Nodes nodes_;$/;"	m	class:Json::Reader
+normalizeEOL	libjson/jsoncpp.cpp	/^StyledStreamWriter::normalizeEOL( const std::string &text )$/;"	f	class:Json::StyledStreamWriter
+normalizeEOL	libjson/jsoncpp.cpp	/^StyledWriter::normalizeEOL( const std::string &text )$/;"	f	class:Json::StyledWriter
+normalized	libsphinxclient/sphinxclient.h	/^	char *					normalized;$/;"	m	struct:st_sphinx_keyword_info
+null	libjson/json.h	/^      static const Value null;$/;"	m	class:Json::Value
+null	libjson/jsoncpp.cpp	/^const Value Value::null;$/;"	m	class:Json::Value	file:
+nullValue	libjson/json.h	/^      nullValue = 0, \/\/\/< 'null' value$/;"	e	enum:Json::ValueType
+num_attrs	libsphinxclient/sphinxclient.h	/^	int						num_attrs;$/;"	m	struct:st_sphinx_result
+num_docs	libsphinxclient/sphinxclient.h	/^	int						num_docs;$/;"	m	struct:st_sphinx_keyword_info
+num_field_weights	libsphinxclient/sphinxclient.c	/^	int						num_field_weights;$/;"	m	struct:st_sphinx_client	file:
+num_fields	libsphinxclient/sphinxclient.h	/^	int						num_fields;$/;"	m	struct:st_sphinx_result
+num_filters	libsphinxclient/sphinxclient.c	/^	int						num_filters;$/;"	m	struct:st_sphinx_client	file:
+num_hits	libsphinxclient/sphinxclient.h	/^	int						num_hits;$/;"	m	struct:st_sphinx_keyword_info
+num_index_weights	libsphinxclient/sphinxclient.c	/^	int						num_index_weights;$/;"	m	struct:st_sphinx_client	file:
+num_matches	libsphinxclient/sphinxclient.h	/^	int						num_matches;$/;"	m	struct:st_sphinx_result
+num_overrides	libsphinxclient/sphinxclient.c	/^	int						num_overrides;$/;"	m	struct:st_sphinx_client	file:
+num_reqs	libsphinxclient/sphinxclient.c	/^	int						num_reqs;$/;"	m	struct:st_sphinx_client	file:
+num_results	libsphinxclient/sphinxclient.c	/^	int						num_results;$/;"	m	struct:st_sphinx_client	file:
+num_values	libsphinxclient/sphinxclient.c	/^	int						num_values;$/;"	m	struct:st_filter	file:
+num_values	libsphinxclient/sphinxclient.c	/^	int						num_values;$/;"	m	struct:st_override	file:
+num_weights	libsphinxclient/sphinxclient.c	/^	int						num_weights;$/;"	m	struct:st_sphinx_client	file:
+num_words	libsphinxclient/sphinxclient.h	/^	int						num_words;$/;"	m	struct:st_sphinx_result
+numberOfCommentPlacement	libjson/json.h	/^      numberOfCommentPlacement$/;"	e	enum:Json::CommentPlacement
+objectValue	libjson/json.h	/^      objectValue    \/\/\/< object value (collection of name\/value pairs).$/;"	e	enum:Json::ValueType
+objectsPerPage_	libjson/jsoncpp.cpp	/^   unsigned int objectsPerPage_;$/;"	m	class:Json::BatchAllocator	file:
+offset	libsphinxclient/sphinxclient.c	/^	int						offset;$/;"	m	struct:st_sphinx_client	file:
+open	cpplint/cpplint_unittest.py	/^  def open(self, unused_filename, unused_mode, unused_encoding, _):  # NOLINT$/;"	m	class:MockIo
+open	liblog/log.cc	/^int CLog::open() {$/;"	f	class:CLog
+operator !	libjson/jsoncpp.cpp	/^Value::operator!() const$/;"	f	class:Json::Value
+operator !=	libjson/json.h	/^      bool operator !=( const SelfType &other ) const$/;"	f	class:Json::ValueIteratorBase
+operator !=	libjson/jsoncpp.cpp	/^Value::operator !=( const Value &other ) const$/;"	f	class:Json::Value
+operator *	libjson/json.h	/^      reference operator *() const$/;"	f	class:Json::ValueConstIterator
+operator *	libjson/json.h	/^      reference operator *() const$/;"	f	class:Json::ValueIterator
+operator ++	libjson/json.h	/^      SelfType &operator++()$/;"	f	class:Json::ValueConstIterator
+operator ++	libjson/json.h	/^      SelfType &operator++()$/;"	f	class:Json::ValueIterator
+operator ++	libjson/json.h	/^      SelfType operator++( int )$/;"	f	class:Json::ValueConstIterator
+operator ++	libjson/json.h	/^      SelfType operator++( int )$/;"	f	class:Json::ValueIterator
+operator -	libjson/json.h	/^      difference_type operator -( const SelfType &other ) const$/;"	f	class:Json::ValueIteratorBase
+operator --	libjson/json.h	/^      SelfType &operator--()$/;"	f	class:Json::ValueConstIterator
+operator --	libjson/json.h	/^      SelfType &operator--()$/;"	f	class:Json::ValueIterator
+operator --	libjson/json.h	/^      SelfType operator--( int )$/;"	f	class:Json::ValueConstIterator
+operator --	libjson/json.h	/^      SelfType operator--( int )$/;"	f	class:Json::ValueIterator
+operator <	libjson/jsoncpp.cpp	/^Value::CZString::operator<( const CZString &other ) const $/;"	f	class:Json::Value::CZString
+operator <	libjson/jsoncpp.cpp	/^Value::operator <( const Value &other ) const$/;"	f	class:Json::Value
+operator <<	libjson/jsoncpp.cpp	/^std::ostream& operator<<( std::ostream &sout, const Value &root )$/;"	f	namespace:Json
+operator <<	src/config.cc	/^std::ostream& operator<<(std::ostream& os, const Config& cf) {$/;"	f
+operator <=	libjson/jsoncpp.cpp	/^Value::operator <=( const Value &other ) const$/;"	f	class:Json::Value
+operator =	libjson/jsoncpp.cpp	/^Value::CZString::operator =( const CZString &other )$/;"	f	class:Json::Value::CZString
+operator =	libjson/jsoncpp.cpp	/^Value::operator=( const Value &other )$/;"	f	class:Json::Value
+operator =	libjson/jsoncpp.cpp	/^ValueConstIterator::operator =( const ValueIteratorBase &other )$/;"	f	class:Json::ValueConstIterator
+operator =	libjson/jsoncpp.cpp	/^ValueIterator::operator =( const SelfType &other )$/;"	f	class:Json::ValueIterator
+operator ==	libjson/json.h	/^      bool operator ==( const SelfType &other ) const$/;"	f	class:Json::ValueIteratorBase
+operator ==	libjson/jsoncpp.cpp	/^Value::CZString::operator==( const CZString &other ) const $/;"	f	class:Json::Value::CZString
+operator ==	libjson/jsoncpp.cpp	/^Value::operator ==( const Value &other ) const$/;"	f	class:Json::Value
+operator >	libjson/jsoncpp.cpp	/^Value::operator >( const Value &other ) const$/;"	f	class:Json::Value
+operator >=	libjson/jsoncpp.cpp	/^Value::operator >=( const Value &other ) const$/;"	f	class:Json::Value
+operator >>	libjson/jsoncpp.cpp	/^std::istream& operator>>( std::istream &sin, Value &root )$/;"	f	namespace:Json
+operator >>	src/config.cc	/^std::istream& operator>>(std::istream& is, Config& cf) {$/;"	f
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( ArrayIndex index ) const$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( ArrayIndex index )$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const CppTL::ConstString &key ) const$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const CppTL::ConstString &key )$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const StaticString &key )$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const char *key ) const$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const char *key )$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const std::string &key ) const$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( const std::string &key )$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( int index ) const$/;"	f	class:Json::Value
+operator []	libjson/jsoncpp.cpp	/^Value::operator[]( int index )$/;"	f	class:Json::Value
+operator const char *	libjson/json.h	/^      operator const char *() const$/;"	f	class:Json::StaticString
+orig_buffer	src/buffer.h	/^    u_char *orig_buffer;$/;"	m	struct:buffer
+outbuf	src/main.cc	/^  struct buffer *outbuf;$/;"	m	struct:SockConnection	typeref:struct:SockConnection::buffer	file:
+overrides	libsphinxclient/sphinxclient.c	/^	struct st_override *	overrides;$/;"	m	struct:st_sphinx_client	typeref:struct:st_sphinx_client::st_override	file:
+pageCount_	libjson/json.h	/^      PageIndex pageCount_;$/;"	m	class:Json::ValueInternalArray
+pages_	libjson/json.h	/^      Value **pages_;$/;"	m	class:Json::ValueInternalArray
+parse	libjson/jsoncpp.cpp	/^Reader::parse( const char *beginDoc, const char *endDoc, $/;"	f	class:Json::Reader
+parse	libjson/jsoncpp.cpp	/^Reader::parse( const std::string &document, $/;"	f	class:Json::Reader
+parse	libjson/jsoncpp.cpp	/^Reader::parse( std::istream& sin,$/;"	f	class:Json::Reader
+parse_init_line	src/http.c	/^static int parse_init_line(struct http_request *request, char *line) {$/;"	f	file:
+parserQuery	src/main.cc	/^int parserQuery(keyvalq & http_query, QueryData & qd) {$/;"	f
+persist	libsphinxclient/sphinxclient.c	/^	sphinx_bool				persist;$/;"	m	struct:st_sphinx_client	file:
+pid_path_name	src/main.cc	/^    string pid_path_name;$/;"	m	class:GlobalParameter	file:
+pointer	libjson/json.h	/^      typedef Value *pointer;$/;"	t	class:Json::ValueIterator
+pointer	libjson/json.h	/^      typedef const Value *pointer;$/;"	t	class:Json::ValueConstIterator
+port	libsphinxclient/sphinxclient.c	/^	int						port;$/;"	m	struct:st_sphinx_client	file:
+port	src/main.cc	/^    int port;$/;"	m	class:GlobalParameter	file:
+prev	libsphinxclient/sphinxclient.c	/^	struct st_memblock *	prev;$/;"	m	struct:st_memblock	typeref:struct:st_memblock::st_memblock	file:
+previous_	libjson/json.h	/^      ValueInternalLink *previous_;$/;"	m	class:Json::ValueInternalLink
+proxyed_host	src/main.cc	/^    string proxyed_host;$/;"	m	class:GlobalParameter	file:
+proxyed_port	src/main.cc	/^    int proxyed_port;$/;"	m	class:GlobalParameter	file:
+pushValue	libjson/jsoncpp.cpp	/^StyledStreamWriter::pushValue( const std::string &value )$/;"	f	class:Json::StyledStreamWriter
+pushValue	libjson/jsoncpp.cpp	/^StyledWriter::pushValue( const std::string &value )$/;"	f	class:Json::StyledWriter
+q	src/sphinx_query_data.h	/^    string q;$/;"	m	class:QueryData
+q	src/sphinx_query_data.h	/^    string q;$/;"	m	class:SphinxQueryData
+query_count	src/main.cc	/^    int64_t query_count;$/;"	m	class:Statistic	file:
+query_error_count	src/main.cc	/^    int64_t query_error_count;$/;"	m	class:Statistic	file:
+random_text	test/sphinx/create_data/create_data.pl	/^sub random_text {$/;"	s
+ranker	libsphinxclient/sphinxclient.c	/^	int						ranker;$/;"	m	struct:st_sphinx_client	file:
+rankingmode	src/sphinx_query_data.h	/^    int rankingmode;$/;"	m	class:SphinxQueryData
+rankingmode	src/sphinx_query_data.h	/^    string rankingmode;$/;"	m	class:QueryData
+readArray	libjson/jsoncpp.cpp	/^Reader::readArray( Token &\/*tokenStart*\/ )$/;"	f	class:Json::Reader
+readCStyleComment	libjson/jsoncpp.cpp	/^Reader::readCStyleComment()$/;"	f	class:Json::Reader
+readComment	libjson/jsoncpp.cpp	/^Reader::readComment()$/;"	f	class:Json::Reader
+readCppStyleComment	libjson/jsoncpp.cpp	/^Reader::readCppStyleComment()$/;"	f	class:Json::Reader
+readNumber	libjson/jsoncpp.cpp	/^Reader::readNumber()$/;"	f	class:Json::Reader
+readObject	libjson/jsoncpp.cpp	/^Reader::readObject( Token &\/*tokenStart*\/ )$/;"	f	class:Json::Reader
+readString	libjson/jsoncpp.cpp	/^Reader::readString()$/;"	f	class:Json::Reader
+readToken	libjson/jsoncpp.cpp	/^Reader::readToken( Token &token )$/;"	f	class:Json::Reader
+readValue	libjson/jsoncpp.cpp	/^Reader::readValue()$/;"	f	class:Json::Reader
+read_small_text_file	src/main.cc	/^int read_small_text_file(const char * file_name, struct buffer * buf) {$/;"	f
+realValue	libjson/json.h	/^      realValue,     \/\/\/< double value$/;"	e	enum:Json::ValueType
+real_	libjson/json.h	/^         double real_;$/;"	m	union:Json::Value::ValueHolder
+recoverFromError	libjson/jsoncpp.cpp	/^Reader::recoverFromError( TokenType skipUntilToken )$/;"	f	class:Json::Reader
+reference	libjson/json.h	/^      typedef Value &reference;$/;"	t	class:Json::ValueIterator
+reference	libjson/json.h	/^      typedef const Value &reference;$/;"	t	class:Json::ValueConstIterator
+release	libjson/jsoncpp.cpp	/^   void release( AllocatedType *object )$/;"	f	class:Json::BatchAllocator
+releaseStringValue	libjson/jsoncpp.cpp	/^releaseStringValue( char *value )$/;"	f	namespace:Json	file:
+release_sphinx_client	src/main.cc	/^static int release_sphinx_client(pthread_t tid) {$/;"	f	file:
+release_thread_sphinx_client	src/main.cc	/^static void release_thread_sphinx_client() {$/;"	f	file:
+removeMember	libjson/jsoncpp.cpp	/^Value::removeMember( const char* key )$/;"	f	class:Json::Value
+removeMember	libjson/jsoncpp.cpp	/^Value::removeMember( const std::string &key )$/;"	f	class:Json::Value
+req_lens	libsphinxclient/sphinxclient.c	/^	int						req_lens [ MAX_REQS ];$/;"	m	struct:st_sphinx_client	file:
+reqs	libsphinxclient/sphinxclient.c	/^	char *					reqs [ MAX_REQS ];$/;"	m	struct:st_sphinx_client	file:
+res_	src/search_result.h	/^    sphinx_result * res_;$/;"	m	class:SearchResult
+resize	libjson/jsoncpp.cpp	/^Value::resize( ArrayIndex newSize )$/;"	f	class:Json::Value
+resolve	libjson/jsoncpp.cpp	/^Path::resolve( const Value &root ) const$/;"	f	class:Json::Path
+resolve	libjson/jsoncpp.cpp	/^Path::resolve( const Value &root, $/;"	f	class:Json::Path
+resolveReference	libjson/jsoncpp.cpp	/^Value::resolveReference( const char *key, $/;"	f	class:Json::Value
+response_buf	libsphinxclient/sphinxclient.c	/^	char *					response_buf;	\/\/\/< where the buffer begins (might also contain heading warning)$/;"	m	struct:st_sphinx_client	file:
+response_busynow	src/main.cc	/^int response_busynow(struct ClientInfo* socket_client) {$/;"	f
+response_len	libsphinxclient/sphinxclient.c	/^	int						response_len;$/;"	m	struct:st_sphinx_client	file:
+response_start	libsphinxclient/sphinxclient.c	/^	char *					response_start;	\/\/\/< where the data to parse starts$/;"	m	struct:st_sphinx_client	file:
+results	libsphinxclient/sphinxclient.c	/^	sphinx_result			results [ MAX_REQS ];$/;"	m	struct:st_sphinx_client	file:
+retries	src/sphinx_query_data.h	/^    int retries;$/;"	m	class:SphinxQueryData
+retries	src/sphinx_query_data.h	/^    string retries;$/;"	m	class:QueryData
+retry_count	libsphinxclient/sphinxclient.c	/^	int						retry_count;$/;"	m	struct:st_sphinx_client	file:
+retry_delay	libsphinxclient/sphinxclient.c	/^	int						retry_delay;$/;"	m	struct:st_sphinx_client	file:
+rightMargin_	libjson/json.h	/^      int rightMargin_;$/;"	m	class:Json::StyledStreamWriter
+rightMargin_	libjson/json.h	/^      int rightMargin_;$/;"	m	class:Json::StyledWriter
+rows	src/sphinx_query_data.h	/^    int rows;$/;"	m	class:SphinxQueryData
+rows	src/sphinx_query_data.h	/^    string rows;$/;"	m	class:QueryData
+safe_free	libsphinxclient/sphinxclient.c	297;"	d	file:
+safestrlen	libsphinxclient/sphinxclient.c	/^static size_t safestrlen ( const char * s )$/;"	f	file:
+search	src/main.cc	/^void search(const SphinxQueryData & sqd, SearchResult * sr) {$/;"	f
+search	test/head.sh	/^search()$/;"	f
+search_1	test/test.sh	/^search_1()$/;"	f
+select	src/sphinx_query_data.h	/^    string select;$/;"	m	class:QueryData
+select	src/sphinx_query_data.h	/^    string select;$/;"	m	class:SphinxQueryData
+select_list	libsphinxclient/sphinxclient.c	/^	const char *			select_list;$/;"	m	struct:st_sphinx_client	file:
+send_bad_req	src/main.cc	/^void send_bad_req(int fd) {$/;"	f
+send_bytes	libsphinxclient/sphinxclient.c	/^static void send_bytes ( char ** pp, const char * bytes, int len )$/;"	f	file:
+send_float	libsphinxclient/sphinxclient.c	/^static void send_float ( char ** pp, float value )$/;"	f	file:
+send_int	libsphinxclient/sphinxclient.c	/^static void send_int ( char ** pp, unsigned int value )$/;"	f	file:
+send_qword	libsphinxclient/sphinxclient.c	/^static void send_qword ( char ** pp, sphinx_uint64_t value )$/;"	f	file:
+send_str	libsphinxclient/sphinxclient.c	/^static void send_str ( char ** pp, const char * s )$/;"	f	file:
+send_word	libsphinxclient/sphinxclient.c	/^static void send_word ( char ** pp, unsigned short value )$/;"	f	file:
+service	src/main.cc	/^void service() {$/;"	f
+setComment	libjson/jsoncpp.cpp	/^Value::CommentInfo::setComment( const char *text )$/;"	f	class:Json::Value::CommentInfo
+setComment	libjson/jsoncpp.cpp	/^Value::setComment( const char *comment,$/;"	f	class:Json::Value
+setComment	libjson/jsoncpp.cpp	/^Value::setComment( const std::string &comment,$/;"	f	class:Json::Value
+setItemUsed	libjson/json.h	/^      inline void setItemUsed( bool isUsed = true )$/;"	f	class:Json::Value
+setMemberNameIsStatic	libjson/json.h	/^      inline void setMemberNameIsStatic( bool isStatic )$/;"	f	class:Json::Value
+setSockNonBlock	src/main.cc	/^inline int setSockNonBlock(int sock) {$/;"	f
+setUp	cpplint/cpplint_unittest.py	/^  def setUp(self):$/;"	m	class:CheckForFunctionLengthsTest
+setUp	cpplint/cpplint_unittest.py	/^  def setUp(self):$/;"	m	class:OrderOfIncludesTest
+setUp	cpplint/cpplint_unittest.py	/^def setUp():$/;"	f
+set_after_run_task_cb	libthreadpool/CThread.h	/^    void set_after_run_task_cb(int (* after_run_task_cb)(pthread_t)) {$/;"	f	class:CThreadPool
+set_before_run_task_cb	libthreadpool/CThread.h	/^    void set_before_run_task_cb(int (* before_run_task_cb)(pthread_t)) {$/;"	f	class:CThreadPool
+set_client	src/search_result.h	/^    void set_client(sphinx_client * client) {$/;"	f	class:SearchResult
+set_error	libsphinxclient/sphinxclient.c	/^static void set_error ( sphinx_client * client, const char * template, ... )$/;"	f	file:
+set_http_response	src/main.cc	/^static void set_http_response(struct buffer *buf, int status,$/;"	f	file:
+set_http_response_buf	src/main.cc	/^static void set_http_response_buf(struct buffer *buf, int status,$/;"	f	file:
+set_log_level	liblog/log.h	/^    void set_log_level(int log_level) {$/;"	f	class:CLog
+set_max_task	libthreadpool/CThread.h	/^    void set_max_task(int max_task) {$/;"	f	class:CThreadPool
+set_result	src/search_result.h	/^    void set_result(sphinx_result * res) {$/;"	f	class:SearchResult
+set_reuse_addr	src/main.cc	/^inline int set_reuse_addr(int sock) {$/;"	f
+set_thread_exit_cb	libthreadpool/CThread.h	/^    void set_thread_exit_cb(int (* thread_exit_cb)(pthread_t)) {$/;"	f	class:CThreadPool
+shift_files	liblog/log.cc	/^int CLog::shift_files() {$/;"	f	class:CLog
+single_passage	libsphinxclient/sphinxclient.h	/^	sphinx_bool				single_passage;$/;"	m	struct:st_sphinx_excerpt_options
+size	libjson/jsoncpp.cpp	/^Value::size() const$/;"	f	class:Json::Value
+size_	libjson/json.h	/^      ArrayIndex size_;$/;"	m	class:Json::ValueInternalArray
+size_t	libjson/json.h	/^      typedef unsigned int size_t;$/;"	t	class:Json::ValueConstIterator
+size_t	libjson/json.h	/^      typedef unsigned int size_t;$/;"	t	class:Json::ValueIterator
+size_t	libjson/json.h	/^      typedef unsigned int size_t;$/;"	t	class:Json::ValueIteratorBase
+skipCommentTokens	libjson/jsoncpp.cpp	/^Reader::skipCommentTokens( Token &token )$/;"	f	class:Json::Reader
+skipSpaces	libjson/jsoncpp.cpp	/^Reader::skipSpaces()$/;"	f	class:Json::Reader
+sock	libsphinxclient/sphinxclient.c	/^	int						sock;			\/\/\/< open socket for pconns; -1 if none$/;"	m	struct:st_sphinx_client	file:
+sock_close	libsphinxclient/sphinxclient.c	/^static void sock_close ( int sock )$/;"	f	file:
+sock_errno	libsphinxclient/sphinxclient.c	/^static int sock_errno ()$/;"	f	file:
+sock_error	libsphinxclient/sphinxclient.c	/^static const char * sock_error ()$/;"	f	file:
+sock_set_blocking	libsphinxclient/sphinxclient.c	/^static int sock_set_blocking ( int sock )$/;"	f	file:
+sock_set_nonblocking	libsphinxclient/sphinxclient.c	/^static int sock_set_nonblocking ( int sock )$/;"	f	file:
+socket_client_	src/main.cc	/^    struct ClientInfo * socket_client_;$/;"	m	class:SimpleWorkTask	typeref:struct:SimpleWorkTask::ClientInfo	file:
+sort	libsphinxclient/sphinxclient.c	/^	int						sort;$/;"	m	struct:st_sphinx_client	file:
+sortby	libsphinxclient/sphinxclient.c	/^	const char *			sortby;$/;"	m	struct:st_sphinx_client	file:
+sortclause	src/sphinx_query_data.h	/^    string sortclause;$/;"	m	class:SphinxQueryData
+sortmode	src/sphinx_query_data.h	/^    int sortmode;$/;"	m	class:SphinxQueryData
+sortmode	src/sphinx_query_data.h	/^    string sortmode;$/;"	m	class:QueryData
+sphinx_add_filter	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_add_filter ( sphinx_client * client, const char * attr, int num_values, const sphinx_int64_t * values, sphinx_bool exclude )$/;"	f
+sphinx_add_filter_entry	libsphinxclient/sphinxclient.c	/^static struct st_filter * sphinx_add_filter_entry ( sphinx_client * client )$/;"	f	file:
+sphinx_add_filter_float_range	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_add_filter_float_range ( sphinx_client * client, const char * attr, float fmin, float fmax, sphinx_bool exclude )$/;"	f
+sphinx_add_filter_range	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_add_filter_range ( sphinx_client * client, const char * attr, sphinx_int64_t umin, sphinx_int64_t umax, sphinx_bool exclude )$/;"	f
+sphinx_add_override	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_add_override ( sphinx_client * client, const char * attr, const sphinx_uint64_t * docids, int num_values, const unsigned int * values )$/;"	f
+sphinx_add_query	libsphinxclient/sphinxclient.c	/^int sphinx_add_query ( sphinx_client * client, const char * query, const char * index_list, const char * comment )$/;"	f
+sphinx_bool	libsphinxclient/sphinxclient.h	/^typedef int					sphinx_bool;$/;"	t
+sphinx_build_excerpts	libsphinxclient/sphinxclient.c	/^char ** sphinx_build_excerpts ( sphinx_client * client, int num_docs,$/;"	f
+sphinx_build_keywords	libsphinxclient/sphinxclient.c	/^sphinx_keyword_info * sphinx_build_keywords ( sphinx_client * client, const char * query, const char * index, sphinx_bool hits, int * out_num_keywords )$/;"	f
+sphinx_cleanup	libsphinxclient/sphinxclient.c	/^void sphinx_cleanup ( sphinx_client * client )$/;"	f
+sphinx_client	libsphinxclient/sphinxclient.h	/^typedef struct st_sphinx_client	sphinx_client;$/;"	t	typeref:struct:st_sphinx_client
+sphinx_close	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_close ( sphinx_client * client )$/;"	f
+sphinx_create	libsphinxclient/sphinxclient.c	/^sphinx_client * sphinx_create ( sphinx_bool copy_args )$/;"	f
+sphinx_destroy	libsphinxclient/sphinxclient.c	/^void sphinx_destroy ( sphinx_client * client )$/;"	f
+sphinx_dismiss_requests	libsphinxclient/sphinxclient.c	/^static int sphinx_dismiss_requests ( sphinx_client * client )$/;"	f	file:
+sphinx_error	libsphinxclient/sphinxclient.c	/^const char * sphinx_error ( sphinx_client * client )$/;"	f
+sphinx_excerpt_options	libsphinxclient/sphinxclient.h	/^} sphinx_excerpt_options;$/;"	t	typeref:struct:st_sphinx_excerpt_options
+sphinx_free_results	libsphinxclient/sphinxclient.c	/^static void sphinx_free_results ( sphinx_client * client )$/;"	f	file:
+sphinx_get_float	libsphinxclient/sphinxclient.c	/^float sphinx_get_float ( sphinx_result * result, int match, int attr )$/;"	f
+sphinx_get_id	libsphinxclient/sphinxclient.c	/^sphinx_uint64_t sphinx_get_id ( sphinx_result * result, int match )$/;"	f
+sphinx_get_int	libsphinxclient/sphinxclient.c	/^sphinx_int64_t sphinx_get_int ( sphinx_result * result, int match, int attr )$/;"	f
+sphinx_get_mva	libsphinxclient/sphinxclient.c	/^unsigned int * sphinx_get_mva ( sphinx_result * result, int match, int attr )$/;"	f
+sphinx_get_num_results	libsphinxclient/sphinxclient.c	/^int sphinx_get_num_results ( sphinx_client * client )$/;"	f
+sphinx_get_weight	libsphinxclient/sphinxclient.c	/^int sphinx_get_weight ( sphinx_result * result, int match )$/;"	f
+sphinx_init_excerpt_options	libsphinxclient/sphinxclient.c	/^void sphinx_init_excerpt_options ( sphinx_excerpt_options * opts )$/;"	f
+sphinx_int64_t	libsphinxclient/sphinxclient.h	/^typedef __int64				sphinx_int64_t;$/;"	t
+sphinx_int64_t	libsphinxclient/sphinxclient.h	/^typedef long long			sphinx_int64_t;$/;"	t
+sphinx_keyword_info	libsphinxclient/sphinxclient.h	/^} sphinx_keyword_info;$/;"	t	typeref:struct:st_sphinx_keyword_info
+sphinx_malloc	libsphinxclient/sphinxclient.c	/^static void * sphinx_malloc ( int len, sphinx_client * client )$/;"	f	file:
+sphinx_open	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_open ( sphinx_client * client )$/;"	f
+sphinx_query	libsphinxclient/sphinxclient.c	/^sphinx_result * sphinx_query ( sphinx_client * client, const char * query, const char * index_list, const char * comment )$/;"	f
+sphinx_reset_filters	libsphinxclient/sphinxclient.c	/^void sphinx_reset_filters ( sphinx_client * client )$/;"	f
+sphinx_reset_groupby	libsphinxclient/sphinxclient.c	/^void sphinx_reset_groupby ( sphinx_client * client )$/;"	f
+sphinx_result	libsphinxclient/sphinxclient.h	/^} sphinx_result;$/;"	t	typeref:struct:st_sphinx_result
+sphinx_run_queries	libsphinxclient/sphinxclient.c	/^sphinx_result * sphinx_run_queries ( sphinx_client * client )$/;"	f
+sphinx_set_connect_timeout	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_connect_timeout ( sphinx_client * client, float seconds )$/;"	f
+sphinx_set_field_weights	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_field_weights ( sphinx_client * client, int num_weights, const char ** field_names, const int * field_weights )$/;"	f
+sphinx_set_geoanchor	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_geoanchor ( sphinx_client * client, const char * attr_latitude, const char * attr_longitude, float latitude, float longitude )$/;"	f
+sphinx_set_groupby	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_groupby ( sphinx_client * client, const char * attr, int groupby_func, const char * group_sort )$/;"	f
+sphinx_set_groupby_distinct	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_groupby_distinct ( sphinx_client * client, const char * attr )$/;"	f
+sphinx_set_id_range	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_id_range ( sphinx_client * client, sphinx_uint64_t minid, sphinx_uint64_t maxid )$/;"	f
+sphinx_set_index_weights	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_index_weights ( sphinx_client * client, int num_weights, const char ** index_names, const int * index_weights )$/;"	f
+sphinx_set_limits	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_limits ( sphinx_client * client, int offset, int limit, int max_matches, int cutoff )$/;"	f
+sphinx_set_match_mode	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_match_mode ( sphinx_client * client, int mode )$/;"	f
+sphinx_set_max_query_time	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_max_query_time ( sphinx_client * client, int max_query_time )$/;"	f
+sphinx_set_ranking_mode	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_ranking_mode ( sphinx_client * client, int ranker )$/;"	f
+sphinx_set_retries	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_retries ( sphinx_client * client, int count, int delay )$/;"	f
+sphinx_set_select	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_select ( sphinx_client * client, const char * select_list )$/;"	f
+sphinx_set_server	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_server ( sphinx_client * client, const char * host, int port )$/;"	f
+sphinx_set_sort_mode	libsphinxclient/sphinxclient.c	/^sphinx_bool sphinx_set_sort_mode ( sphinx_client * client, int mode, const char * sortby )$/;"	f
+sphinx_status	libsphinxclient/sphinxclient.c	/^char ** sphinx_status ( sphinx_client * client, int * num_rows, int * num_cols )$/;"	f
+sphinx_status_destroy	libsphinxclient/sphinxclient.c	/^void sphinx_status_destroy ( char ** status, int num_rows, int num_cols )$/;"	f
+sphinx_uint64_t	libsphinxclient/sphinxclient.h	/^typedef unsigned __int64	sphinx_uint64_t;$/;"	t
+sphinx_uint64_t	libsphinxclient/sphinxclient.h	/^typedef unsigned long long	sphinx_uint64_t;$/;"	t
+sphinx_update_attributes	libsphinxclient/sphinxclient.c	/^int sphinx_update_attributes ( sphinx_client * client, const char * index, int num_attrs, const char ** attrs, int num_docs, const sphinx_uint64_t * docids, const sphinx_int64_t * values )$/;"	f
+sphinx_warning	libsphinxclient/sphinxclient.c	/^const char * sphinx_warning ( sphinx_client * client )$/;"	f
+sphinx_wordinfo	libsphinxclient/sphinxclient.h	/^} sphinx_wordinfo;$/;"	t	typeref:struct:st_sphinx_wordinfo
+st_filter	libsphinxclient/sphinxclient.c	/^struct st_filter$/;"	s	file:
+st_memblock	libsphinxclient/sphinxclient.c	/^struct st_memblock$/;"	s	file:
+st_override	libsphinxclient/sphinxclient.c	/^struct st_override$/;"	s	file:
+st_sphinx_client	libsphinxclient/sphinxclient.c	/^struct st_sphinx_client$/;"	s	file:
+st_sphinx_excerpt_options	libsphinxclient/sphinxclient.h	/^typedef struct st_sphinx_excerpt_options$/;"	s
+st_sphinx_keyword_info	libsphinxclient/sphinxclient.h	/^typedef struct st_sphinx_keyword_info$/;"	s
+st_sphinx_result	libsphinxclient/sphinxclient.h	/^typedef struct st_sphinx_result$/;"	s
+st_sphinx_wordinfo	libsphinxclient/sphinxclient.h	/^typedef struct st_sphinx_wordinfo$/;"	s
+start	src/sphinx_query_data.h	/^    int start;$/;"	m	class:SphinxQueryData
+start	src/sphinx_query_data.h	/^    string start;$/;"	m	class:QueryData
+start_	libjson/json.h	/^         Location start_;$/;"	m	class:Json::Reader::Token
+start_time	src/main.cc	/^    time_t start_time;$/;"	m	class:Statistic	file:
+status	libsphinxclient/sphinxclient.h	/^	int						status;$/;"	m	struct:st_sphinx_result
+str_	libjson/json.h	/^      const char *str_;$/;"	m	class:Json::StaticString
+str_sub_inner	src/main.cc	/^static char * str_sub_inner(const char * str, const char * first, bool include,$/;"	f	file:
+strchain	libsphinxclient/sphinxclient.c	/^static const char * strchain ( sphinx_client * client, const char * s )$/;"	f	file:
+strictMode	libjson/jsoncpp.cpp	/^Features::strictMode()$/;"	f	class:Json::Features
+strictRoot_	libjson/json.h	/^      bool strictRoot_;$/;"	m	class:Json::Features
+stringValue	libjson/json.h	/^      stringValue,   \/\/\/< UTF-8 string value$/;"	e	enum:Json::ValueType
+string_	libjson/json.h	/^         char *string_;$/;"	m	union:Json::Value::ValueHolder
+string_as_T	src/config.h	/^T Config::string_as_T(const std::string& s) {$/;"	f	class:Config
+string_as_T	src/config.h	/^inline bool Config::string_as_T<bool>(const std::string& s) {$/;"	f	class:Config
+string_as_T	src/config.h	/^inline std::string Config::string_as_T<std::string>(const std::string& s) {$/;"	f	class:Config
+swap	libjson/jsoncpp.cpp	/^Value::CZString::swap( CZString &other )$/;"	f	class:Json::Value::CZString
+swap	libjson/jsoncpp.cpp	/^Value::swap( Value &other )$/;"	f	class:Json::Value
+tailLink_	libjson/json.h	/^      ValueInternalLink *tailLink_;$/;"	m	class:Json::ValueInternalMap
+tearDown	cpplint/cpplint_unittest.py	/^  def tearDown(self):$/;"	m	class:CheckForFunctionLengthsTest
+tearDown	cpplint/cpplint_unittest.py	/^  def tearDown(self):$/;"	m	class:OrderOfIncludesTest
+tearDown	cpplint/cpplint_unittest.py	/^def tearDown():$/;"	f
+testAllowBlankLineBeforeClosingNamespace	cpplint/cpplint_unittest.py	/^  def testAllowBlankLineBeforeClosingNamespace(self):$/;"	m	class:CpplintTest
+testAllowBlankLineBeforeIfElseChain	cpplint/cpplint_unittest.py	/^  def testAllowBlankLineBeforeIfElseChain(self):$/;"	m	class:CpplintTest
+testBlankLineBeforeSectionKeyword	cpplint/cpplint_unittest.py	/^  def testBlankLineBeforeSectionKeyword(self):$/;"	m	class:CpplintTest
+testBlankLinesCheck	cpplint/cpplint_unittest.py	/^  def testBlankLinesCheck(self):$/;"	m	class:CpplintTest
+testBraceAtBeginOfLine	cpplint/cpplint_unittest.py	/^  def testBraceAtBeginOfLine(self):$/;"	m	class:CpplintTest
+testBraces	cpplint/cpplint_unittest.py	/^  def testBraces(self):$/;"	m	class:CpplintTest
+testBuildClass	cpplint/cpplint_unittest.py	/^  def testBuildClass(self):$/;"	m	class:CpplintTest
+testBuildEndComment	cpplint/cpplint_unittest.py	/^  def testBuildEndComment(self):$/;"	m	class:CpplintTest
+testBuildForwardDecl	cpplint/cpplint_unittest.py	/^  def testBuildForwardDecl(self):$/;"	m	class:CpplintTest
+testBuildHeaderGuard	cpplint/cpplint_unittest.py	/^  def testBuildHeaderGuard(self):$/;"	m	class:CpplintTest
+testBuildInclude	cpplint/cpplint_unittest.py	/^  def testBuildInclude(self):$/;"	m	class:CpplintTest
+testBuildPrintfFormat	cpplint/cpplint_unittest.py	/^  def testBuildPrintfFormat(self):$/;"	m	class:CpplintTest
+testBuildStorageClass	cpplint/cpplint_unittest.py	/^  def testBuildStorageClass(self):$/;"	m	class:CpplintTest
+testCStyleCast	cpplint/cpplint_unittest.py	/^  def testCStyleCast(self):$/;"	m	class:CpplintTest
+testCheckCheck	cpplint/cpplint_unittest.py	/^  def testCheckCheck(self):$/;"	m	class:CpplintTest
+testCheckDeprecated	cpplint/cpplint_unittest.py	/^  def testCheckDeprecated(self):$/;"	m	class:CpplintTest
+testCheckForUnnamedParams	cpplint/cpplint_unittest.py	/^  def testCheckForUnnamedParams(self):$/;"	m	class:CpplintTest
+testCheckNextIncludeOrder_CppThenC	cpplint/cpplint_unittest.py	/^  def testCheckNextIncludeOrder_CppThenC(self):$/;"	m	class:OrderOfIncludesTest
+testCheckNextIncludeOrder_CppThenLikely	cpplint/cpplint_unittest.py	/^  def testCheckNextIncludeOrder_CppThenLikely(self):$/;"	m	class:OrderOfIncludesTest
+testCheckNextIncludeOrder_CppThenPossible	cpplint/cpplint_unittest.py	/^  def testCheckNextIncludeOrder_CppThenPossible(self):$/;"	m	class:OrderOfIncludesTest
+testCheckNextIncludeOrder_LikelyThenCpp	cpplint/cpplint_unittest.py	/^  def testCheckNextIncludeOrder_LikelyThenCpp(self):$/;"	m	class:OrderOfIncludesTest
+testCheckNextIncludeOrder_OtherThenCpp	cpplint/cpplint_unittest.py	/^  def testCheckNextIncludeOrder_OtherThenCpp(self):$/;"	m	class:OrderOfIncludesTest
+testCheckNextIncludeOrder_PossibleThenCpp	cpplint/cpplint_unittest.py	/^  def testCheckNextIncludeOrder_PossibleThenCpp(self):$/;"	m	class:OrderOfIncludesTest
+testCheckPosixThreading	cpplint/cpplint_unittest.py	/^  def testCheckPosixThreading(self):$/;"	m	class:CpplintTest
+testClassifyInclude	cpplint/cpplint_unittest.py	/^  def testClassifyInclude(self):$/;"	m	class:OrderOfIncludesTest
+testCleanseLine	cpplint/cpplint_unittest.py	/^  def testCleanseLine(self):$/;"	m	class:CpplintTest
+testCollapseStrings	cpplint/cpplint_unittest.py	/^  def testCollapseStrings(self):$/;"	m	class:CleansedLinesTest
+testComma	cpplint/cpplint_unittest.py	/^  def testComma(self):$/;"	m	class:CpplintTest
+testConstStringReferenceMembers	cpplint/cpplint_unittest.py	/^  def testConstStringReferenceMembers(self):$/;"	m	class:CpplintTest
+testDefaultFilter	cpplint/cpplint_unittest.py	/^  def testDefaultFilter(self):$/;"	m	class:CpplintTest
+testDeprecatedCast	cpplint/cpplint_unittest.py	/^  def testDeprecatedCast(self):$/;"	m	class:CpplintTest
+testDestructorNonVirtualWhenVirtualNeeded	cpplint/cpplint_unittest.py	/^  def testDestructorNonVirtualWhenVirtualNeeded(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testDestructorNonVirtualWhenVirtualNeededClassDecorated	cpplint/cpplint_unittest.py	/^  def testDestructorNonVirtualWhenVirtualNeededClassDecorated(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testDisallowEvilConstructors	cpplint/cpplint_unittest.py	/^  def testDisallowEvilConstructors(self):$/;"	m	class:CpplintTest
+testElseClauseNotOnSameLineAsElse	cpplint/cpplint_unittest.py	/^  def testElseClauseNotOnSameLineAsElse(self):$/;"	m	class:CpplintTest
+testElseOnSameLineAsClosingBraces	cpplint/cpplint_unittest.py	/^  def testElseOnSameLineAsClosingBraces(self):$/;"	m	class:CpplintTest
+testErrorSuppression	cpplint/cpplint_unittest.py	/^  def testErrorSuppression(self):$/;"	m	class:CpplintTest
+testExplicitMakePair	cpplint/cpplint_unittest.py	/^  def testExplicitMakePair(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testExplicitSingleArgumentConstructors	cpplint/cpplint_unittest.py	/^  def testExplicitSingleArgumentConstructors(self):$/;"	m	class:CpplintTest
+testFilesBelongToSameModule	cpplint/cpplint_unittest.py	/^  def testFilesBelongToSameModule(self):$/;"	m	class:CpplintTest
+testFilter	cpplint/cpplint_unittest.py	/^  def testFilter(self):$/;"	m	class:CpplintTest
+testFindNextMultiLineCommentEnd	cpplint/cpplint_unittest.py	/^  def testFindNextMultiLineCommentEnd(self):$/;"	m	class:CpplintTest
+testFindNextMultiLineCommentStart	cpplint/cpplint_unittest.py	/^  def testFindNextMultiLineCommentStart(self):$/;"	m	class:CpplintTest
+testFormatStrings	cpplint/cpplint_unittest.py	/^  def testFormatStrings(self):$/;"	m	class:CpplintTest
+testFunctionLengthCheckClassDefinition	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckClassDefinition(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckComplexDefinitionSeverity1	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckComplexDefinitionSeverity1(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDeclaration	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDeclaration(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDeclarationWithBlockFollowing	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDeclarationWithBlockFollowing(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAboveSeverity0	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAboveSeverity0(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAboveSeverity1	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAboveSeverity1(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAboveSeverity2	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAboveSeverity2(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAboveSeverity3	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAboveSeverity3(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAboveSeverity4	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAboveSeverity4(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAboveSeverity5	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAboveSeverity5(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAtSeverity0	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAtSeverity0(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAtSeverity1	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAtSeverity1(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAtSeverity1v0	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAtSeverity1v0(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionAtSeverity5	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionAtSeverity5(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity0	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity0(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity1	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity1(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity1v0	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity1v0(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity2	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity2(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity3	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity3(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity4	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity4(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionBelowSeverity5	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionBelowSeverity5(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionHugeLines	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionHugeLines(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity1ForBadTestDoesntBreak	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity1ForBadTestDoesntBreak(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity1ForSplitLineTest	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity1ForSplitLineTest(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity1ForTest	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity1ForTest(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity1PlusBlanks	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity1PlusBlanks(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity1WithEmbeddedNoLints	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity1WithEmbeddedNoLints(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity1WithNoLint	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity1WithNoLint(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity2	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity2(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity3	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity3(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckDefinitionSeverity4	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckDefinitionSeverity4(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckEmpty	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckEmpty(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthCheckTrivial	cpplint/cpplint_unittest.py	/^  def testFunctionLengthCheckTrivial(self):$/;"	m	class:CheckForFunctionLengthsTest
+testFunctionLengthNotDeterminable	cpplint/cpplint_unittest.py	/^  def testFunctionLengthNotDeterminable(self):$/;"	m	class:CheckForFunctionLengthsTest
+testGetLineWidth	cpplint/cpplint_unittest.py	/^  def testGetLineWidth(self):$/;"	m	class:CpplintTest
+testGetTextInside	cpplint/cpplint_unittest.py	/^  def testGetTextInside(self):$/;"	m	class:CpplintTest
+testIllegalOperatorOverloading	cpplint/cpplint_unittest.py	/^  def testIllegalOperatorOverloading(self):$/;"	m	class:CpplintTest
+testIncludeFilenameFalseError	cpplint/cpplint_unittest.py	/^  def testIncludeFilenameFalseError(self):$/;"	m	class:CpplintTest
+testIncludeWhatYouUse	cpplint/cpplint_unittest.py	/^  def testIncludeWhatYouUse(self):$/;"	m	class:CpplintTest
+testIncludeWhatYouUseNoImplementationFiles	cpplint/cpplint_unittest.py	/^  def testIncludeWhatYouUseNoImplementationFiles(self):$/;"	m	class:CpplintTest
+testIndent	cpplint/cpplint_unittest.py	/^  def testIndent(self):$/;"	m	class:CpplintTest
+testInit	cpplint/cpplint_unittest.py	/^  def testInit(self):$/;"	m	class:CleansedLinesTest
+testInitEmpty	cpplint/cpplint_unittest.py	/^  def testInitEmpty(self):$/;"	m	class:CleansedLinesTest
+testInnerClassNeedsVirtualDestructor	cpplint/cpplint_unittest.py	/^  def testInnerClassNeedsVirtualDestructor(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testInternalBraces	cpplint/cpplint_unittest.py	/^  def testInternalBraces(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testInvalidIncrement	cpplint/cpplint_unittest.py	/^  def testInvalidIncrement(self):$/;"	m	class:CpplintTest
+testInvalidUtf8	cpplint/cpplint_unittest.py	/^  def testInvalidUtf8(self):$/;"	m	class:CpplintTest
+testIsBlankLine	cpplint/cpplint_unittest.py	/^  def testIsBlankLine(self):$/;"	m	class:CpplintTest
+testLabel	cpplint/cpplint_unittest.py	/^  def testLabel(self):$/;"	m	class:CpplintTest
+testLegalCopyright	cpplint/cpplint_unittest.py	/^  def testLegalCopyright(self):$/;"	m	class:CpplintTest
+testLineLengthCheck	cpplint/cpplint_unittest.py	/^  def testLineLengthCheck(self):$/;"	m	class:CpplintTest
+testLinePrecededByEmptyOrCommentLines	cpplint/cpplint_unittest.py	/^  def testLinePrecededByEmptyOrCommentLines(self):$/;"	m	class:CpplintTest
+testMismatchingSpacesInParens	cpplint/cpplint_unittest.py	/^  def testMismatchingSpacesInParens(self):$/;"	m	class:CpplintTest
+testMockCallback	cpplint/cpplint_unittest.py	/^  def testMockCallback(self):$/;"	m	class:CpplintTest
+testMockMethod	cpplint/cpplint_unittest.py	/^  def testMockMethod(self):$/;"	m	class:CpplintTest
+testMultiLineComments	cpplint/cpplint_unittest.py	/^  def testMultiLineComments(self):$/;"	m	class:CpplintTest
+testMultiLineDeclarationNoError	cpplint/cpplint_unittest.py	/^  def testMultiLineDeclarationNoError(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testMultiLineDeclarationWithError	cpplint/cpplint_unittest.py	/^  def testMultiLineDeclarationWithError(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testMultilineStrings	cpplint/cpplint_unittest.py	/^  def testMultilineStrings(self):$/;"	m	class:CpplintTest
+testNewlineAtEOF	cpplint/cpplint_unittest.py	/^  def testNewlineAtEOF(self):$/;"	m	class:CpplintTest
+testNoBlankLineAfterSectionKeyword	cpplint/cpplint_unittest.py	/^  def testNoBlankLineAfterSectionKeyword(self):$/;"	m	class:CpplintTest
+testNoDestructorWhenVirtualNeeded	cpplint/cpplint_unittest.py	/^  def testNoDestructorWhenVirtualNeeded(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testNoDestructorWhenVirtualNeededClassDecorated	cpplint/cpplint_unittest.py	/^  def testNoDestructorWhenVirtualNeededClassDecorated(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testNoError	cpplint/cpplint_unittest.py	/^  def testNoError(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testNoSpacesInFunctionCalls	cpplint/cpplint_unittest.py	/^  def testNoSpacesInFunctionCalls(self):$/;"	m	class:CpplintTest
+testNoWarnWhenDerived	cpplint/cpplint_unittest.py	/^  def testNoWarnWhenDerived(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testNoWarnWhenDerivedClassDecorated	cpplint/cpplint_unittest.py	/^  def testNoWarnWhenDerivedClassDecorated(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testNonConstReference	cpplint/cpplint_unittest.py	/^  def testNonConstReference(self):$/;"	m	class:CpplintTest
+testNotALabel	cpplint/cpplint_unittest.py	/^  def testNotALabel(self):$/;"	m	class:CpplintTest
+testOuterClassNeedsVirtualDestructor	cpplint/cpplint_unittest.py	/^  def testOuterClassNeedsVirtualDestructor(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testParseArguments	cpplint/cpplint_unittest.py	/^  def testParseArguments(self):$/;"	m	class:CpplintTest
+testQualifiedClassNeedsVirtualDestructor	cpplint/cpplint_unittest.py	/^  def testQualifiedClassNeedsVirtualDestructor(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testRegression	cpplint/cpplint_unittest.py	/^  def testRegression(self):$/;"	m	class:OrderOfIncludesTest
+testRemoveMultiLineCommentsFromRange	cpplint/cpplint_unittest.py	/^  def testRemoveMultiLineCommentsFromRange(self):$/;"	m	class:CpplintTest
+testRuntimeCasting	cpplint/cpplint_unittest.py	/^  def testRuntimeCasting(self):$/;"	m	class:CpplintTest
+testRuntimePrintfFormat	cpplint/cpplint_unittest.py	/^  def testRuntimePrintfFormat(self):$/;"	m	class:CpplintTest
+testRuntimeRTTI	cpplint/cpplint_unittest.py	/^  def testRuntimeRTTI(self):$/;"	m	class:CpplintTest
+testRuntimeSelfinit	cpplint/cpplint_unittest.py	/^  def testRuntimeSelfinit(self):$/;"	m	class:CpplintTest
+testSizeofType	cpplint/cpplint_unittest.py	/^  def testSizeofType(self):$/;"	m	class:CpplintTest
+testSlashStarCommentOnSingleLine	cpplint/cpplint_unittest.py	/^  def testSlashStarCommentOnSingleLine(self):$/;"	m	class:CpplintTest
+testSnprintfSize	cpplint/cpplint_unittest.py	/^  def testSnprintfSize(self):$/;"	m	class:NoNonVirtualDestructorsTest
+testSpaceAfterCommentMarker	cpplint/cpplint_unittest.py	/^  def testSpaceAfterCommentMarker(self):$/;"	m	class:CpplintTest
+testSpacesAtEndOfLine	cpplint/cpplint_unittest.py	/^  def testSpacesAtEndOfLine(self):$/;"	m	class:CpplintTest
+testSpacingAroundElse	cpplint/cpplint_unittest.py	/^  def testSpacingAroundElse(self):$/;"	m	class:CpplintTest
+testSpacingBeforeBraces	cpplint/cpplint_unittest.py	/^  def testSpacingBeforeBraces(self):$/;"	m	class:CpplintTest
+testSpacingBeforeLastSemicolon	cpplint/cpplint_unittest.py	/^  def testSpacingBeforeLastSemicolon(self):$/;"	m	class:CpplintTest
+testSpacingForBinaryOps	cpplint/cpplint_unittest.py	/^  def testSpacingForBinaryOps(self):$/;"	m	class:CpplintTest
+testSpacingForFncall	cpplint/cpplint_unittest.py	/^  def testSpacingForFncall(self):$/;"	m	class:CpplintTest
+testSpacingWithInitializerLists	cpplint/cpplint_unittest.py	/^  def testSpacingWithInitializerLists(self):$/;"	m	class:CpplintTest
+testStaticOrGlobalSTLStrings	cpplint/cpplint_unittest.py	/^  def testStaticOrGlobalSTLStrings(self):$/;"	m	class:CpplintTest
+testSuspiciousUsageOfIf	cpplint/cpplint_unittest.py	/^  def testSuspiciousUsageOfIf(self):$/;"	m	class:CpplintTest
+testSuspiciousUsageOfMemset	cpplint/cpplint_unittest.py	/^  def testSuspiciousUsageOfMemset(self):$/;"	m	class:CpplintTest
+testTab	cpplint/cpplint_unittest.py	/^  def testTab(self):$/;"	m	class:CpplintTest
+testToDoComments	cpplint/cpplint_unittest.py	/^  def testToDoComments(self):$/;"	m	class:CpplintTest
+testTryDropCommonSuffixes	cpplint/cpplint_unittest.py	/^  def testTryDropCommonSuffixes(self):$/;"	m	class:OrderOfIncludesTest
+testTwoSpacesBetweenCodeAndComments	cpplint/cpplint_unittest.py	/^  def testTwoSpacesBetweenCodeAndComments(self):$/;"	m	class:CpplintTest
+testTypedefForPointerToFunction	cpplint/cpplint_unittest.py	/^  def testTypedefForPointerToFunction(self):$/;"	m	class:CpplintTest
+testUnnamedNamespacesInHeaders	cpplint/cpplint_unittest.py	/^  def testUnnamedNamespacesInHeaders(self):$/;"	m	class:CpplintTest
+testVariableDeclarations	cpplint/cpplint_unittest.py	/^  def testVariableDeclarations(self):$/;"	m	class:CpplintTest
+testVariableLengthArrayDetection	cpplint/cpplint_unittest.py	/^  def testVariableLengthArrayDetection(self):$/;"	m	class:CpplintTest
+thread_pool_max	src/main.cc	/^    int thread_pool_max;$/;"	m	class:GlobalParameter	file:
+thread_pool_min	src/main.cc	/^    int thread_pool_min;$/;"	m	class:GlobalParameter	file:
+time_msec	libsphinxclient/sphinxclient.h	/^	int						time_msec;$/;"	m	struct:st_sphinx_result
+timeout	libsphinxclient/sphinxclient.c	/^	float					timeout;$/;"	m	struct:st_sphinx_client	file:
+toStyledString	libjson/jsoncpp.cpp	/^Value::toStyledString() const$/;"	f	class:Json::Value
+tokenArrayBegin	libjson/json.h	/^         tokenArrayBegin,$/;"	e	enum:Json::Reader::TokenType
+tokenArrayEnd	libjson/json.h	/^         tokenArrayEnd,$/;"	e	enum:Json::Reader::TokenType
+tokenArraySeparator	libjson/json.h	/^         tokenArraySeparator,$/;"	e	enum:Json::Reader::TokenType
+tokenComment	libjson/json.h	/^         tokenComment,$/;"	e	enum:Json::Reader::TokenType
+tokenEndOfStream	libjson/json.h	/^         tokenEndOfStream = 0,$/;"	e	enum:Json::Reader::TokenType
+tokenError	libjson/json.h	/^         tokenError$/;"	e	enum:Json::Reader::TokenType
+tokenFalse	libjson/json.h	/^         tokenFalse,$/;"	e	enum:Json::Reader::TokenType
+tokenMemberSeparator	libjson/json.h	/^         tokenMemberSeparator,$/;"	e	enum:Json::Reader::TokenType
+tokenNull	libjson/json.h	/^         tokenNull,$/;"	e	enum:Json::Reader::TokenType
+tokenNumber	libjson/json.h	/^         tokenNumber,$/;"	e	enum:Json::Reader::TokenType
+tokenObjectBegin	libjson/json.h	/^         tokenObjectBegin,$/;"	e	enum:Json::Reader::TokenType
+tokenObjectEnd	libjson/json.h	/^         tokenObjectEnd,$/;"	e	enum:Json::Reader::TokenType
+tokenString	libjson/json.h	/^         tokenString,$/;"	e	enum:Json::Reader::TokenType
+tokenTrue	libjson/json.h	/^         tokenTrue,$/;"	e	enum:Json::Reader::TokenType
+token_	libjson/json.h	/^         Token token_;$/;"	m	class:Json::Reader::ErrorInfo
+tokenized	libsphinxclient/sphinxclient.h	/^	char *					tokenized;$/;"	m	struct:st_sphinx_keyword_info
+too_long	test/test_fail.sh	/^too_long()$/;"	f
+total	libsphinxclient/sphinxclient.h	/^	int						total;$/;"	m	struct:st_sphinx_result
+total_found	libsphinxclient/sphinxclient.h	/^	int						total_found;$/;"	m	struct:st_sphinx_result
+totallen	src/buffer.h	/^    size_t totallen;$/;"	m	struct:buffer
+trim	src/utils.h	/^inline std::string & trim(std::string & source) {$/;"	f
+trim_left	src/utils.h	/^inline std::string & trim_left(std::string & source) {$/;"	f
+trim_right	src/utils.h	/^inline std::string & trim_right(std::string & source) {$/;"	f
+type	libjson/jsoncpp.cpp	/^Value::type() const$/;"	f	class:Json::Value
+type	src/http.h	/^    int type;$/;"	m	struct:http_request
+type	src/sphinx_query_data.h	/^      Type type;$/;"	m	struct:SphinxQueryData::Filter
+type_	libjson/json.h	/^         TokenType type_;$/;"	m	class:Json::Reader::Token
+u_char	src/buffer.h	/^  typedef unsigned char u_char;$/;"	t
+uintToString	libjson/jsoncpp.cpp	/^uintToString( LargestUInt value, $/;"	f	namespace:Json	file:
+uintToStringBufferSize	libjson/jsoncpp.cpp	/^   uintToStringBufferSize = 3*sizeof(LargestUInt)+1 $/;"	e	enum:Json::__anon17	file:
+uintValue	libjson/json.h	/^      uintValue,     \/\/\/< unsigned integer value$/;"	e	enum:Json::ValueType
+uint_	libjson/json.h	/^         LargestUInt uint_;$/;"	m	union:Json::Value::ValueHolder
+uint_values	libsphinxclient/sphinxclient.c	/^	const unsigned int *	uint_values;$/;"	m	struct:st_override	file:
+umax	libsphinxclient/sphinxclient.c	/^	sphinx_int64_t			umax;$/;"	m	struct:st_filter	file:
+umin	libsphinxclient/sphinxclient.c	/^	sphinx_int64_t			umin;$/;"	m	struct:st_filter	file:
+un_attr_value	libsphinxclient/sphinxclient.c	/^union un_attr_value$/;"	u	file:
+unchain	libsphinxclient/sphinxclient.c	/^static void unchain ( sphinx_client * client, const void * ptr )$/;"	f	file:
+unchain_all	libsphinxclient/sphinxclient.c	/^static void unchain_all ( sphinx_client * client )$/;"	f	file:
+unindent	libjson/jsoncpp.cpp	/^StyledStreamWriter::unindent()$/;"	f	class:Json::StyledStreamWriter
+unindent	libjson/jsoncpp.cpp	/^StyledWriter::unindent()$/;"	f	class:Json::StyledWriter
+unknown	libjson/jsoncpp.cpp	/^static const unsigned int unknown = (unsigned)-1;$/;"	v	file:
+unpack_float	libsphinxclient/sphinxclient.c	/^static float unpack_float ( char ** cur )$/;"	f	file:
+unpack_int	libsphinxclient/sphinxclient.c	/^static unsigned int unpack_int ( char ** cur )$/;"	f	file:
+unpack_qword	libsphinxclient/sphinxclient.c	/^static sphinx_uint64_t unpack_qword ( char ** cur )$/;"	f	file:
+unpack_short	libsphinxclient/sphinxclient.c	/^static unsigned short unpack_short ( char ** cur )$/;"	f	file:
+unpack_str	libsphinxclient/sphinxclient.c	/^static char * unpack_str ( char ** cur )$/;"	f	file:
+uri	src/http.h	/^    char *uri;$/;"	m	struct:http_request
+uri_chars	src/http.c	/^static const char uri_chars[256] = {$/;"	v	file:
+uri_get_path	src/main.cc	/^static char * uri_get_path(const char * uri) {$/;"	f	file:
+use_boundaries	libsphinxclient/sphinxclient.h	/^	sphinx_bool				use_boundaries;$/;"	m	struct:st_sphinx_excerpt_options
+used_	libjson/jsoncpp.cpp	/^      AllocatedType *used_;$/;"	m	struct:Json::BatchAllocator::BatchInfo	file:
+va_copy	src/buffer.c	69;"	d	file:
+value	src/http.h	/^    char *value;$/;"	m	struct:http_header
+valueToQuotedString	libjson/jsoncpp.cpp	/^std::string valueToQuotedString( const char *value )$/;"	f	namespace:Json
+valueToString	libjson/jsoncpp.cpp	/^std::string valueToString( Int value )$/;"	f	namespace:Json
+valueToString	libjson/jsoncpp.cpp	/^std::string valueToString( LargestInt value )$/;"	f	namespace:Json
+valueToString	libjson/jsoncpp.cpp	/^std::string valueToString( LargestUInt value )$/;"	f	namespace:Json
+valueToString	libjson/jsoncpp.cpp	/^std::string valueToString( UInt value )$/;"	f	namespace:Json
+valueToString	libjson/jsoncpp.cpp	/^std::string valueToString( bool value )$/;"	f	namespace:Json
+valueToString	libjson/jsoncpp.cpp	/^std::string valueToString( double value )$/;"	f	namespace:Json
+value_	libjson/json.h	/^      } value_;$/;"	m	class:Json::Value	typeref:union:Json::Value::ValueHolder
+values	libsphinxclient/sphinxclient.c	/^	const sphinx_int64_t *	values;$/;"	m	struct:st_filter	file:
+values	src/sphinx_query_data.h	/^      vector<sphinx_int64_t> values;$/;"	m	struct:SphinxQueryData::Filter
+values_pool	libsphinxclient/sphinxclient.h	/^	void *					values_pool;$/;"	m	struct:st_sphinx_result
+ver	src/http.h	/^    struct http_pro_version ver;$/;"	m	struct:http_request	typeref:struct:http_request::http_pro_version
+ver_search	libsphinxclient/sphinxclient.c	/^	unsigned short			ver_search;				\/\/\/< compatibility mode$/;"	m	struct:st_sphinx_client	file:
+warn	liblog/log.cc	/^int CLog::warn(const char *fmt, ...) {$/;"	f	class:CLog
+warning	libsphinxclient/sphinxclient.c	/^	const char *			warning;				\/\/\/< last warning$/;"	m	struct:st_sphinx_client	file:
+warning	libsphinxclient/sphinxclient.h	/^	const char *			warning;$/;"	m	struct:st_sphinx_result
+weight_order	libsphinxclient/sphinxclient.h	/^	sphinx_bool				weight_order;$/;"	m	struct:st_sphinx_excerpt_options
+weights	libsphinxclient/sphinxclient.c	/^	const int *				weights;$/;"	m	struct:st_sphinx_client	file:
+word	libsphinxclient/sphinxclient.h	/^	const char *			word;$/;"	m	struct:st_sphinx_wordinfo
+words	libsphinxclient/sphinxclient.h	/^	sphinx_wordinfo *		words;$/;"	m	struct:st_sphinx_result
+write	libjson/jsoncpp.cpp	/^FastWriter::write( const Value &root )$/;"	f	class:Json::FastWriter
+write	libjson/jsoncpp.cpp	/^StyledStreamWriter::write( std::ostream &out, const Value &root )$/;"	f	class:Json::StyledStreamWriter
+write	libjson/jsoncpp.cpp	/^StyledWriter::write( const Value &root )$/;"	f	class:Json::StyledWriter
+writeArrayValue	libjson/jsoncpp.cpp	/^StyledStreamWriter::writeArrayValue( const Value &value )$/;"	f	class:Json::StyledStreamWriter
+writeArrayValue	libjson/jsoncpp.cpp	/^StyledWriter::writeArrayValue( const Value &value )$/;"	f	class:Json::StyledWriter
+writeCommentAfterValueOnSameLine	libjson/jsoncpp.cpp	/^StyledStreamWriter::writeCommentAfterValueOnSameLine( const Value &root )$/;"	f	class:Json::StyledStreamWriter
+writeCommentAfterValueOnSameLine	libjson/jsoncpp.cpp	/^StyledWriter::writeCommentAfterValueOnSameLine( const Value &root )$/;"	f	class:Json::StyledWriter
+writeCommentBeforeValue	libjson/jsoncpp.cpp	/^StyledStreamWriter::writeCommentBeforeValue( const Value &root )$/;"	f	class:Json::StyledStreamWriter
+writeCommentBeforeValue	libjson/jsoncpp.cpp	/^StyledWriter::writeCommentBeforeValue( const Value &root )$/;"	f	class:Json::StyledWriter
+writeIndent	libjson/jsoncpp.cpp	/^StyledStreamWriter::writeIndent()$/;"	f	class:Json::StyledStreamWriter
+writeIndent	libjson/jsoncpp.cpp	/^StyledWriter::writeIndent()$/;"	f	class:Json::StyledWriter
+writeValue	libjson/jsoncpp.cpp	/^FastWriter::writeValue( const Value &value )$/;"	f	class:Json::FastWriter
+writeValue	libjson/jsoncpp.cpp	/^StyledStreamWriter::writeValue( const Value &value )$/;"	f	class:Json::StyledStreamWriter
+writeValue	libjson/jsoncpp.cpp	/^StyledWriter::writeValue( const Value &value )$/;"	f	class:Json::StyledWriter
+writeWithIndent	libjson/jsoncpp.cpp	/^StyledStreamWriter::writeWithIndent( const std::string &value )$/;"	f	class:Json::StyledStreamWriter
+writeWithIndent	libjson/jsoncpp.cpp	/^StyledWriter::writeWithIndent( const std::string &value )$/;"	f	class:Json::StyledWriter
+yamlCompatiblityEnabled_	libjson/json.h	/^      bool yamlCompatiblityEnabled_;$/;"	m	class:Json::FastWriter
+~BatchAllocator	libjson/jsoncpp.cpp	/^   ~BatchAllocator()$/;"	f	class:Json::BatchAllocator
+~CGuard	liblog/lock.h	/^    ~CGuard() {$/;"	f	class:CGuard
+~CLock	liblog/lock.h	/^    ~CLock() {$/;"	f	class:CLock
+~CLog	liblog/log.h	/^    virtual ~CLog() { close(); }$/;"	f	class:CLog
+~CTask	libthreadpool/CThread.h	/^    virtual ~CTask() {}$/;"	f	class:CTask
+~CZString	libjson/jsoncpp.cpp	/^Value::CZString::~CZString()$/;"	f	class:Json::Value::CZString
+~CommentInfo	libjson/jsoncpp.cpp	/^Value::CommentInfo::~CommentInfo()$/;"	f	class:Json::Value::CommentInfo
+~FastWriter	libjson/json.h	/^      virtual ~FastWriter(){}$/;"	f	class:Json::FastWriter
+~Filter	src/sphinx_query_data.h	/^      ~Filter() {$/;"	f	struct:SphinxQueryData::Filter
+~SphinxQueryData	src/sphinx_query_data.h	/^    ~SphinxQueryData() {$/;"	f	class:SphinxQueryData
+~StyledStreamWriter	libjson/json.h	/^      ~StyledStreamWriter(){}$/;"	f	class:Json::StyledStreamWriter
+~StyledWriter	libjson/json.h	/^      virtual ~StyledWriter(){}$/;"	f	class:Json::StyledWriter
+~Value	libjson/jsoncpp.cpp	/^Value::~Value()$/;"	f	class:Json::Value
+~Writer	libjson/jsoncpp.cpp	/^Writer::~Writer()$/;"	f	class:Json::Writer
